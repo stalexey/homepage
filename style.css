@@ -1,13 +1,17 @@
 BODY {
 	background: #B9C3D7;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin: 0px;
+	padding: 0px;
 	font-size: 15px;
 	font-weight: 300;
 	font-family: Roboto, Arial, sans-serif, Helvetica;
 	color: #000000;
+}
+
+DIV {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
 }
 
 .Padder {
@@ -18,23 +22,27 @@ BODY {
 	margin-right: auto;
 }
 
+.Body {
+	margin-top: 46px;
+	width: 100%;
+}
+
 .Header {
-	padding: 0px;
 	background-color: #335481;
 	box-shadow: 0px 0px 7px grey;
+	position: fixed;
+	top: 0px;
+	width: 100%;
 }
 
 .NavigationBar {
 	margin-left: 20px;
 	margin-right: 20px;
-	overflow: hidden;
-	text-align: center;
 }
 
 .NavigationBar A {
 	display: block;
 	color: #f8f8f8;
-	text-align: center;
 	text-decoration: none;
 }
 
@@ -69,17 +77,12 @@ BODY {
 .Object {
 	background-color: #FFFFFF;
 	margin: 20px;
-	overflow: hidden;
 	box-shadow: 0px 0px 7px #999999;
 	padding-bottom: 20px;
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
 	border-radius: 2px 2px 2px 2px;
 }
 
 .Title {
-	margin: 0px;
 	background-color: #D3E2F3;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -91,7 +94,6 @@ BODY {
 }
 
 .Content {
-	margin: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 16px;
@@ -107,12 +109,8 @@ BODY {
 
 .Content P {
 	text-align: justify; 
-	font-family: Roboto, Arial, sans-serif, Helvetica;
 	font-weight: 300;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin: 0px;
 }
 
 .Content IMG.BorderTopLeft {
