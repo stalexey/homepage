@@ -127,6 +127,43 @@ DIV {
 	border-radius: 2px;
 }
 
+.Content IMG.TopLeft {
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.Content IMG.Center {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: block;
+}
+
+.Content IMG.Padded {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.Content I {
+	font-weight: 400;
+}
+
+.Content IFRAME.Center {
+	background: #FFFFFF;
+	border-width: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	display: block;
+}
+
+.Content CENTER {
+	padding-top: 20px;
+	line-height: 25px;
+}
+
 .Content A.Text {
 	color: #296396;
 	text-decoration: none; 
@@ -165,7 +202,7 @@ DIV {
 
 .ResumeHeader {
 	width: 100%;
-	background-color: #DAE8F4;
+	background-color: #E1EEF8;
 	color: #233A52;
 	font-weight: 400;
 	padding-top: 5px;

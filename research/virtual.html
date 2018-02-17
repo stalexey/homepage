@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <META name="description" Lang=en content="Homepage of Alexey Stomakhin">
+  <META name="keywords" Lang=en content="Alexey Stomakhin, Alexey, Stomakhin, Homepage">
+  <TITLE>Alexey Stomakhin</TITLE>
+  <LINK rel="icon" href="http://alexey.stomakhin.com/favicon.ico" type="image/x-icon">
+  <LINK rel="shortcut icon" href="http://alexey.stomakhin.com/favicon.ico" type="image/x-icon"> 
+  <LINK rel="stylesheet" href="../style.css" type="text/css">
+  <LINK href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY marginwidth=0 marginheight=0>
+
+  <DIV class="Header">
+    <DIV class="Padder">
+      <DIV class="NavigationBar">
+        <A class="Home" href="../index.html">Alexey Stomakhin</A>
+        <A class="Menu" href="../research.html">Research</A>
+        <A class="Menu" href="../resume.html">Resume</A>
+      </DIV>
+    </DIV>
+  </DIV>
+
+  <DIV class="Body">
+    <DIV class="Padder">
+
+      <DIV class="Object">
+        <DIV class="Label">
+          A Second Order Virtual Node Algorithm for
+          Navier-Stokes Flow Problems with Interfacial
+          Forces and Discontinuous Material Properties
+        </DIV>
+        <DIV class="Content">
+
+          <DIV class="LinkBar">
+            <A target="_blank" href="http://alexey.stomakhin.com/research/jcp2014_virtual.pdf">Download paper</A>
+          </DIV>
+
+          <IMG class="Center" src="http://alexey.stomakhin.com/research/rising_bubble.jpg">
+
+          <CENTER>
+            C. Schroeder, <B>A. Stomakhin</B>, R. Howes and J. Teran.
+            Journal of Computational Physics 2014.<BR>
+            <I>A Second Order Virtual Node Algorithm for
+              Navier-Stokes Flow Problems with Interfacial
+            Forces and Discontinuous Material Properties</I>.
+          </CENTER>
+
+          <P>
+            We present a numerical method for the solution of the
+            Navier-Stokes equations in three dimensions that handles
+            interfacial discontinuities due to singular forces and
+            discontinuous fluid properties such as viscosity and
+            density.  We show that this also allows for the enforcement
+            of normal stress and velocity boundary conditions on
+            irregular domains. The method provides treatment of fluid
+            inertia as well as a new discretization of jump and boundary
+            conditions that accurately resolves null modes in both two
+            and three dimensions. We discretize the equations using an
+            embedded approach on a uniform MAC grid to yield discretely
+            divergence-free velocities that are second order
+            accurate. We maintain our interface using the level set
+            method or, when more appropriate, the particle level set
+            method. We show how to implement Dirichlet (known velocity),
+            Neumann (known normal stress), and slip velocity boundary
+            conditions as special cases of our interface
+            representation. The method leads to a discrete, symmetric
+            KKT system for velocities, pressures, and Lagrange
+            multipliers. We also present a novel simplification to the
+            standard combination of the second order semi-Lagrangian and
+            BDF schemes for discretizing the inertial terms. Numerical
+            results indicate second order spatial accuracy for the
+            velocities (L-inf and L2) and first order for the pressure (in
+            L-inf, second order in L2). Our temporal discretization is
+            also second order accurate.
+          </P>
+
+        </DIV>
+      </DIV>
+
+    </DIV>
+  </DIV>
+
+</BODY>
+</HTML>

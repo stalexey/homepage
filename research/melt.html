@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <META name="description" Lang=en content="Homepage of Alexey Stomakhin">
+  <META name="keywords" Lang=en content="Alexey Stomakhin, Alexey, Stomakhin, Homepage">
+  <TITLE>Alexey Stomakhin</TITLE>
+  <LINK rel="icon" href="http://alexey.stomakhin.com/favicon.ico" type="image/x-icon">
+  <LINK rel="shortcut icon" href="http://alexey.stomakhin.com/favicon.ico" type="image/x-icon"> 
+  <LINK rel="stylesheet" href="../style.css" type="text/css">
+  <LINK href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY marginwidth=0 marginheight=0>
+
+  <DIV class="Header">
+    <DIV class="Padder">
+      <DIV class="NavigationBar">
+        <A class="Home" href="../index.html">Alexey Stomakhin</A>
+        <A class="Menu" href="../research.html">Research</A>
+        <A class="Menu" href="../resume.html">Resume</A>
+      </DIV>
+    </DIV>
+  </DIV>
+
+  <DIV class="Body">
+    <DIV class="Padder">
+
+      <DIV class="Object">
+        <DIV class="Label">
+          Energetically Consistent Invertible Elasticity
+        </DIV>
+        <DIV class="Content">
+
+          <DIV class="LinkBar">
+            <A target="_blank" href="http://alexey.stomakhin.com/research/siggraph2014_melt.pdf">Download paper</A> <T>|</T>
+            <A target="_blank" href="http://alexey.stomakhin.com/research/siggraph2014_tech_report.pdf">Download supplemental technical document</A>
+          </DIV>
+
+          <IFRAME class="Center" width="640" height="360" src="https://www.youtube.com/embed/jADc_m4-MVY" frameborder="0" allowfullscreen>
+          </IFRAME>
+
+          <CENTER>
+            <B>A. Stomakhin</B>, C. Schroeder, C. Jiang, L. Chai, J. Teran, A. Selle.<BR><I>Augmented MPM for Phase-Change and Varied Materials</I>. ACM SIGGRAPH 2014.
+          </CENTER>
+
+          <P>
+            In this paper, we introduce a novel material point method
+            (MPM) for heat transport, melting and solidifying
+            materials. This brings a wider range of material behaviors
+            into reach of the already versatile material point
+            method. This is in contrast to best-of-breed fluid, solid or
+            rigid body solvers that are difficult to adapt to a wide
+            range of materials.  Extending the material point method
+            requires several contributions. We introduce a
+            dilational/deviatoric splitting of the constitutive model
+            and show that an implicit treatment of the Eulerian
+            evolution of the dilational part can be used to simulate
+            arbitrarily incompressible materials. Furthermore, we show
+            that this treatment reduces to a parabolic equation for
+            moderate compressibility and an elliptic, Chorin-style
+            projection at the incompressible limit. Since projections
+            are naturally done on marker and cell (MAC) grids, we devise
+            a staggered grid MPM method. Lastly, to generate varying
+            material parameters, we adapt a heat-equation solver to a
+            material point framework.
+          </P>
+
+        </DIV>
+      </DIV>
+
+    </DIV>
+  </DIV>
+
+</BODY>
+</HTML>

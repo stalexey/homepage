@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <META name="description" Lang=en content="Homepage of Alexey Stomakhin">
+  <META name="keywords" Lang=en content="Alexey Stomakhin, Alexey, Stomakhin, Homepage">
+  <TITLE>Alexey Stomakhin</TITLE>
+  <LINK rel="icon" href="http://alexey.stomakhin.com/favicon.ico" type="image/x-icon">
+  <LINK rel="shortcut icon" href="http://alexey.stomakhin.com/favicon.ico" type="image/x-icon"> 
+  <LINK rel="stylesheet" href="../style.css" type="text/css">
+  <LINK href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500" rel="stylesheet" type="text/css">
+</HEAD>
+
+<BODY marginwidth=0 marginheight=0>
+
+  <DIV class="Header">
+    <DIV class="Padder">
+      <DIV class="NavigationBar">
+        <A class="Home" href="../index.html">Alexey Stomakhin</A>
+        <A class="Menu" href="../research.html">Research</A>
+        <A class="Menu" href="../resume.html">Resume</A>
+      </DIV>
+    </DIV>
+  </DIV>
+
+  <DIV class="Body">
+    <DIV class="Padder">
+
+      <DIV class="Object">
+        <DIV class="Label">
+          The Affine Particle-In-Cell Method
+        </DIV>
+        <DIV class="Content">
+
+          <DIV class="LinkBar">
+            <A target="_blank" href="http://alexey.stomakhin.com/research/siggraph2015_apic.pdf">Download paper</A> <T>|</T>
+            <A target="_blank" href="http://alexey.stomakhin.com/research/siggraph2015_tech_report.pdf">Download supplemental technical document</A>
+          </DIV>
+
+          <IFRAME class="Center" width="640" height="360" src="https://www.youtube.com/embed/rPPW_1M8nRA" frameborder="0" allowfullscreen>
+          </IFRAME>
+
+          <CENTER>
+            C. Jiang, C. Schroeder, A. Selle, J. Teran, <B>A. Stomakhin</B>. <I>The Affine Particle-In-Cell Method</I>. ACM SIGGRAPH 2015.
+          </CENTER>
+
+          <P>
+            Hybrid Lagrangian/Eulerian simulation is commonplace in computer graphics for fluids and other materials undergoing large deformation. In these methods, particles are used to resolve transport and topological change, while a background Eulerian grid is used for computing mechanical forces and collision responses. Particle-in-Cell (PIC) techniques, particularly the Fluid Implicit Particle (FLIP) variants have become the norm in computer graphics calculations. While these approaches have proven very powerful, they do suffer from some well known limitations. The original PIC is stable, but highly dissipative, while FLIP, designed to remove this dissipation, is more noisy and at times, unstable. We present a novel technique designed to retain the stability of the original PIC, without suffering from the noise and instability of FLIP. Our primary observation is that the dissipation in the original PIC results from a loss of information when transferring between grid and particle representations. We prevent this loss of information by augmenting each particle with a locally affine, rather than locally constant, description of the velocity. We show that this not only stably removes the dissipation of PIC, but that it also allows for exact conservation of angular momentum across the transfers between particles and grid.
+          </P>
+
+        </DIV>
+      </DIV>
+
+    </DIV>
+  </DIV>
+
+</BODY>
+</HTML>
