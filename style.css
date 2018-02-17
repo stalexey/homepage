@@ -77,7 +77,7 @@ DIV {
 	background-color: #FFFFFF;
 	margin: 21px;
 	box-shadow: 0px 0px 5px #A0A0A0;
-	border-radius: 2px;
+	border-radius: 4px;
 	box-sizing: border-box;
 }
 
@@ -121,7 +121,10 @@ DIV {
 	margin-right: 20px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	box-shadow: 0 0 1px 0px #AAAAAA;
+	border-width: 1px;
+	border-color: #EEEEEE;
+	border-style: solid;
+	border-radius: 2px;
 }
 
 .Content A.Text {
@@ -214,4 +217,29 @@ DIV {
 	margin-top: 12px;
 	margin-bottom: 0px;
 	text-align: justify;
+}
+
+.Paper {
+	width: 100%;
+	padding-top: 20px;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+.Content T.Conference {
+	font-weight: 400;
+	font-size: 13px;
+	color: #445566
+}
+
+.Content A.Title {
+	color: #296396;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.Content A.Title:hover {
+	color: #24517B;
 }
