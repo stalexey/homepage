@@ -125,6 +125,7 @@ DIV {
 	border-color: #EEEEEE;
 	border-style: solid;
 	border-radius: 2px;
+	max-width: 100%;
 }
 
 .Content IMG.TopLeft {
