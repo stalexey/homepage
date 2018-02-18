@@ -69,8 +69,10 @@ DIV {
 	padding: 11px 20px;
 }
 
-.NavigationBar A:hover {
-	background-color: #2C4E7C;
+@media (hover) {
+	.NavigationBar A:hover {
+		background-color: #2C4E7C;
+	}
 }
 
 .NavigationBar T {
