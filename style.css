@@ -203,7 +203,7 @@ DIV {
 	.WelcomeWrapper {
 		width: 100%;
 		text-align: center;
-		margin-top: 12px;
+		margin-top: 10px;
 	}
 	.Content IMG.MyPhoto {
 		float: none;
@@ -212,7 +212,7 @@ DIV {
 	}
 	.WelcomeLine {
 		display: block;
-		margin-top: 8px;
+		margin-top: 10px;
 	}
 }
 
