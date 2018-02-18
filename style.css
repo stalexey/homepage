@@ -42,7 +42,7 @@ DIV {
 	width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	.NavigationBar {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -97,7 +97,7 @@ DIV {
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	.NavigationBar A:not(:first-child) {
 		display: none;
 	}
@@ -126,7 +126,7 @@ DIV {
 	box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	.Object {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -170,6 +170,47 @@ DIV {
 	margin-right: 0;
 	margin-top: 20px;
 	margin-bottom: 0px;
+}
+
+.WelcomeWrapper {
+	display: block;
+	float: left;
+	padding: 0px;
+}
+
+.Content P.Welcome {
+	margin-top: 30px;
+}
+
+.Content IMG.MyPhoto {
+	display: block;
+	float: left;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px;
+	border-width: 1px;
+	border-color: #DDDDDD;
+	border-style: solid;
+	border-radius: 0px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+@media (max-width: 650px) {
+	.Content P.Welcome {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.WelcomeWrapper {
+		width: 100%;
+	}
+	.Content IMG.MyPhoto {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 .Content IMG.BorderTopLeft {
@@ -257,7 +298,7 @@ DIV {
 	padding-right: 5px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	.LinkBar T {
 		float: left;
 		color: #FFFFFF;
@@ -284,7 +325,7 @@ DIV {
 	border-radius: 2px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	.ResumeHeader {
 		text-align: center;
 	}
@@ -297,7 +338,7 @@ DIV {
 	margin-bottom: 0px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	.ResumeOccupation {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -334,7 +375,7 @@ DIV {
 	color: #445566;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	.ResumeOccupation T.Title {
 		width: 100%;
 	}
@@ -361,7 +402,7 @@ DIV {
 	text-align: justify;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	.JobDescription {
 		padding-left: 5px;
 		padding-right: 5px;
@@ -377,7 +418,7 @@ DIV {
 	text-align: justify;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 	.ResumeItem {
 		padding-left: 0px;
 		padding-right: 0px;
