@@ -42,6 +42,13 @@ DIV {
 	width: 100%;
 }
 
+@media (max-width: 600px) {
+	.NavigationBar {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
 .NavigationBar A {
 	display: block;
 	color: #F8F8F8;
@@ -63,9 +70,8 @@ DIV {
 }
 
 .NavigationBar A.Icon {
-	float: left;
 	font-weight: 500;
-	font-size: 19px;
+	font-size: 17px;
 	padding: 11px 20px;
 }
 
@@ -114,6 +120,17 @@ DIV {
 	box-shadow: 0px 0px 5px #A0A0A0;
 	border-radius: 4px;
 	box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+	.Object {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+		border-radius: 0px;
+		box-shadow: 0px 0px 5px #B0B0B0;
+	}
 }
 
 .Label {
