@@ -13,10 +13,21 @@
 
 <BODY marginwidth=0 marginheight=0>
 
+  <SCRIPT>
+    function myFunction() {
+      var x = document.getElementById("NavigaionBarID");
+      if (x.className === "NavigationBar") {
+        x.className += " Responsive";
+      } else {
+        x.className = "NavigationBar";
+      }
+    }
+  </SCRIPT>
   <DIV class="Header">
     <DIV class="Padder">
-      <DIV class="NavigationBar">
+      <DIV class="NavigationBar" id="NavigaionBarID">
         <A class="Home" href="index.html">Alexey Stomakhin</A>
+        <A href="javascript:void(0);" class="Icon" onclick="myFunction()">&#9776;</A>
         <A class="Menu" href="resume.html">Resume</A>
         <A class="Menu" href="research.html">Research</A>
       </DIV>

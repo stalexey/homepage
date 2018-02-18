@@ -13,6 +13,16 @@
 
 <BODY marginwidth=0 marginheight=0>
 
+  <SCRIPT>
+    function myFunction() {
+      var x = document.getElementById("NavigaionBarID");
+      if (x.className === "NavigationBar") {
+        x.className += " Responsive";
+      } else {
+        x.className = "NavigationBar";
+      }
+    }
+  </SCRIPT>
   <DIV class="Header">
     <DIV class="Padder">
       <DIV class="NavigationBar">
