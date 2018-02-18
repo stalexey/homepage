@@ -129,7 +129,7 @@ DIV {
 		margin-top: 10px;
 		margin-bottom: 0px;
 		border-radius: 0px;
-		box-shadow: 0px 0px 5px #B0B0B0;
+		box-shadow: 0px 0px 5px #A0A0A0;
 	}
 }
 
@@ -253,6 +253,19 @@ DIV {
 	padding-right: 5px;
 }
 
+@media (max-width: 600px) {
+	.LinkBar T {
+		float: left;
+		color: #FFFFFF;
+		font-size: 10px;
+		width: 100%;
+	}
+	.LinkBar A {
+		width: 100%;
+		float: left;
+	}
+}
+
 .ResumeHeader {
 	width: 100%;
 	background-color: #E1EEF8;
@@ -267,6 +280,12 @@ DIV {
 	border-radius: 2px;
 }
 
+@media (max-width: 600px) {
+	.ResumeHeader {
+		text-align: center;
+	}
+}
+
 .ResumeOccupation {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -274,7 +293,25 @@ DIV {
 	margin-bottom: 0px;
 }
 
+@media (max-width: 600px) {
+	.ResumeOccupation {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
 .ResumeOccupation T.Title {
+	float: left;
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.ResumeOccupation T.TitleCompanySeparator {
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.ResumeOccupation T.Company {
 	font-weight: 400;
 	font-size: 17px;
 }
@@ -286,9 +323,29 @@ DIV {
 }
 
 .ResumeOccupation I.Comment {
+	float: left;
+	width: 100%;
 	font-weight: 300;
 	font-size: 13px;
 	color: #445566;
+}
+
+@media (max-width: 600px) {
+	.ResumeOccupation T.Title {
+		width: 100%;
+	}
+	.ResumeOccupation T.TitleCompanySeparator {
+		display: none;
+	}
+	.ResumeOccupation T.Dates {
+		float: left;
+		width: 100%;
+		font-size: 14px;
+		color: #445566
+	}
+	.ResumeOccupation I.Comment {
+		display: none;
+	}
 }
 
 .JobDescription {
@@ -300,6 +357,13 @@ DIV {
 	text-align: justify;
 }
 
+@media (max-width: 600px) {
+	.JobDescription {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
 .ResumeItem {
 	width: 100%;
 	padding-left: 20px;
@@ -307,6 +371,13 @@ DIV {
 	margin-top: 12px;
 	margin-bottom: 0px;
 	text-align: justify;
+}
+
+@media (max-width: 600px) {
+	.ResumeItem {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 }
 
 .Paper {
