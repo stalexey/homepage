@@ -363,8 +363,8 @@ DIV {
 
 @media (max-width: 600px) {
 	.JobDescription {
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 }
 
