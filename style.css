@@ -4,7 +4,7 @@ BODY {
 	padding: 0px;
 	font-size: 15px;
 	font-weight: 400;
-	font-family: 'Hind Siliguri', Arial, sans-serif, Helvetica;
+	font-family: 'Barlow', Arial, sans-serif, Helvetica;
 	color: #000000;
 }
 
@@ -59,20 +59,29 @@ DIV {
 	float: left;
 	font-weight: 600;
 	font-size: 17px;
-	padding: 9px 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 12px;
 }
 
 .NavigationBar A.Menu {
 	float: right;
 	font-weight: 500;
 	font-size: 15px;
-	padding: 10px 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 11px;
+	padding-bottom: 13px;
 }
 
 .NavigationBar A.Icon {
 	font-weight: 600;
 	font-size: 17px;
-	padding: 9px 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 11px;
 }
 
 @media (hover) {
@@ -134,7 +143,7 @@ DIV {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 7px;
 	font-weight: 500;
 	font-size: 16px;
 	color: #233A52;
@@ -288,7 +297,7 @@ DIV {
 	.LinkBar T {
 		float: left;
 		color: #FFFFFF;
-		font-size: 4px;
+		font-size: 7px;
 		width: 100%;
 	}
 	.LinkBar A {
@@ -303,7 +312,7 @@ DIV {
 	color: #233A52;
 	font-weight: 500;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 7px;
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-top: 20px;
