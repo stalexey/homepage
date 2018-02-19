@@ -81,14 +81,6 @@ DIV {
 	}
 }
 
-.NavigationBar T {
-	color: #FFFFFF;
-	padding: 12px 20px;
-	text-decoration: none;
-	font-size: 17px;
-	font-weight: 600;
-}
-
 .NavigationBar .Icon {
 	display: none;
 }
@@ -295,7 +287,7 @@ DIV {
 	.LinkBar T {
 		float: left;
 		color: #FFFFFF;
-		font-size: 5px;
+		font-size: 4px;
 		width: 100%;
 	}
 	.LinkBar A {
