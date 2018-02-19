@@ -29,7 +29,7 @@ DIV {
 }
 
 .Header {
-	background-color: #265392;
+	background-color: #275390;
 	box-shadow: 0px 0px 5px grey;
 	position: fixed;
 	top: 0px;
@@ -428,6 +428,7 @@ DIV {
 	border-radius: 0px;
 	max-width: 40%;
 	box-sizing: border-box;
+	border-radius: 3px;
 }
 
 .Paper {
