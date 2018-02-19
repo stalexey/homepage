@@ -221,6 +221,7 @@ DIV {
 	margin-right: auto;
 	margin-top: 20px;
 	display: block;
+	max-width: 100%;
 }
 
 .Content IMG.Padded {
