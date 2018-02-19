@@ -24,7 +24,7 @@ DIV {
 }
 
 .Body {
-	margin-top: 46px;
+	margin-top: 41px;
 	width: 100%;
 }
 
@@ -428,7 +428,7 @@ DIV {
 	border-color: #DDDDDD;
 	border-style: solid;
 	border-radius: 0px;
-	max-width: 40%;
+	max-width: 25%;
 	box-sizing: border-box;
 	border-radius: 2px;
 }
@@ -444,7 +444,7 @@ DIV {
 	font-size: 15px;
 }
 
-@media (max-width: 630px) {
+/*@media (max-width: 630px) {
 	.PaperInfo {
 		width: 100%;
 		padding-top: 7px;
@@ -455,7 +455,7 @@ DIV {
 		margin-left: auto;
 		margin-right: auto;
 	}
-}
+}*/
 
 .Content T.Conference {
 	font-weight: 500;
