@@ -37,8 +37,8 @@ DIV {
 }
 
 .NavigationBar {
-	padding-left: 21px;
-	padding-right: 21px;
+	padding-left: 19px;
+	padding-right: 19px;
 	width: 100%;
 }
 
@@ -59,8 +59,8 @@ DIV {
 	float: left;
 	font-weight: 600;
 	font-size: 17px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 18px;
+	padding-right: 18px;
 	padding-top: 10px;
 	padding-bottom: 11px;
 }
@@ -69,8 +69,8 @@ DIV {
 	float: right;
 	font-weight: 500;
 	font-size: 15px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 18px;
+	padding-right: 18px;
 	padding-top: 11px;
 	padding-bottom: 12px;
 }
@@ -78,8 +78,8 @@ DIV {
 .NavigationBar A.Icon {
 	font-weight: 600;
 	font-size: 17px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 18px;
+	padding-right: 18px;
 	padding-top: 8px;
 	padding-bottom: 10px;
 }
@@ -121,7 +121,7 @@ DIV {
 
 .Object {
 	background-color: #FFFFFF;
-	margin: 21px;
+	margin: 19px;
 	box-shadow: 0px 0px 5px #A0A0A0;
 	border-radius: 4px;
 	box-sizing: border-box;
@@ -140,8 +140,8 @@ DIV {
 
 .Label {
 	background-color: #D1E7FF;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 18px;
+	padding-right: 18px;
 	padding-top: 5px;
 	padding-bottom: 6px;
 	font-weight: 500;
@@ -151,10 +151,10 @@ DIV {
 }
 
 .Content {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 18px;
+	padding-right: 18px;
 	padding-top: 0px;
-	padding-bottom: 20px;
+	padding-bottom: 18px;
 }
 
 .Content B {
@@ -170,22 +170,22 @@ DIV {
 	font-weight: 400;
 	margin-left: 0px;
 	margin-right: 0;
-	margin-top: 20px;
+	margin-top: 18px;
 	margin-bottom: 0px;
 }
 
 .WelcomeWrapper {
 	display: block;
 	float: left;
-	margin-top: 20px;
+	margin-top: 18px;
 }
 
 .Content IMG.MyPhoto {
 	display: block;
 	float: left;
 	margin-left: 0px;
-	margin-right: 20px;
-	margin-top: 20px;
+	margin-right: 18px;
+	margin-top: 18px;
 	margin-bottom: 0px;
 	padding: 0px;
 	border-width: 1px;
@@ -220,7 +220,7 @@ DIV {
 
 .Content IMG.TopLeft {
 	margin-left: 0px;
-	margin-right: 20px;
+	margin-right: 18px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
@@ -228,14 +228,14 @@ DIV {
 .Content IMG.Center {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 18px;
 	display: block;
 	max-width: 100%;
 }
 
 .Content IMG.Padded {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 18px;
+	margin-right: 18px;
 }
 
 .Content I {
@@ -248,12 +248,12 @@ DIV {
 	border-width: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 20px;
+	padding-top: 18px;
 	display: block;
 }
 
 .Content CENTER {
-	padding-top: 20px;
+	padding-top: 18px;
 	line-height: 22px;
 }
 
@@ -271,7 +271,7 @@ DIV {
 	width: 100%;
 	font-size: 19px;
 	font-weight: 400;
-	margin-top: 20px;
+	margin-top: 18px;
 	margin-bottom: 0px;
 	color: #6f8092;
 	text-align: center;
@@ -315,7 +315,7 @@ DIV {
 	padding-bottom: 6px;
 	padding-left: 12px;
 	padding-right: 12px;
-	margin-top: 20px;
+	margin-top: 18px;
 	margin-bottom: 18px;
 	border-radius: 2px;
 }
@@ -327,8 +327,8 @@ DIV {
 }
 
 .ResumeOccupation {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 18px;
+	margin-right: 18px;
 	margin-top: 16px;
 	margin-bottom: 0px;
 }
@@ -390,8 +390,8 @@ DIV {
 
 .JobDescription {
 	width: 100%;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 36px;
+	padding-right: 36px;
 	margin-top: 12px;
 	margin-bottom: 0px;
 	text-align: justify;
@@ -406,8 +406,8 @@ DIV {
 
 .ResumeItem {
 	width: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 18px;
+	padding-right: 18px;
 	margin-top: 12px;
 	margin-bottom: 0px;
 	text-align: justify;
@@ -423,7 +423,7 @@ DIV {
 .Content IMG.PaperThumbnail {
 	display: block;
 	float: left;
-	margin-right: 20px;
+	margin-right: 18px;
 	border-width: 1px;
 	border-color: #DDDDDD;
 	border-style: solid;
@@ -434,7 +434,7 @@ DIV {
 }
 
 .Paper {
-	margin-top: 20px;
+	margin-top: 18px;
 	width: 100%;
 }
 
