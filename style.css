@@ -3,8 +3,8 @@ BODY {
 	margin: 0px;
 	padding: 0px;
 	font-size: 15px;
-	font-weight: 300;
-	font-family: Roboto, Arial, sans-serif, Helvetica;
+	font-weight: 400;
+	font-family: 'Hind Siliguri', Arial, sans-serif, Helvetica;
 	color: #000000;
 }
 
@@ -29,7 +29,7 @@ DIV {
 }
 
 .Header {
-	background-color: #335481;
+	background-color: #265392;
 	box-shadow: 0px 0px 5px grey;
 	position: fixed;
 	top: 0px;
@@ -42,7 +42,7 @@ DIV {
 	width: 100%;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
 	.NavigationBar {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -57,27 +57,27 @@ DIV {
 
 .NavigationBar A.Home {
 	float: left;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 17px;
-	padding: 13px 20px;
+	padding: 9px 20px;
 }
 
 .NavigationBar A.Menu {
 	float: right;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 15px;
-	padding: 14px 20px;
+	padding: 10px 20px;
 }
 
 .NavigationBar A.Icon {
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 17px;
-	padding: 11px 20px;
+	padding: 9px 20px;
 }
 
 @media (hover) {
 	.NavigationBar A:hover {
-		background-color: #2C4E7C;
+		background-color: #224d8a;
 	}
 }
 
@@ -86,7 +86,7 @@ DIV {
 	padding: 12px 20px;
 	text-decoration: none;
 	font-size: 17px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .NavigationBar .Icon {
@@ -97,7 +97,7 @@ DIV {
 	display: none;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 630px) {
 	.NavigationBar A:not(:first-child) {
 		display: none;
 	}
@@ -126,7 +126,7 @@ DIV {
 	box-sizing: border-box;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
 	.Object {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -138,12 +138,12 @@ DIV {
 }
 
 .Label {
-	background-color: #D3E2F3;
+	background-color: #D1E7FF;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	font-weight: 400;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 500;
 	font-size: 16px;
 	color: #233A52;
 }
@@ -156,7 +156,7 @@ DIV {
 }
 
 .Content B {
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .Content FONT.Big {
@@ -165,7 +165,7 @@ DIV {
 
 .Content P {
 	text-align: justify; 
-	font-weight: 300;
+	font-weight: 400;
 	margin-left: 0px;
 	margin-right: 0;
 	margin-top: 20px;
@@ -196,14 +196,14 @@ DIV {
 
 .WelcomeLine {
 	display: block;
-	margin-top: 18px;
+	margin-top: 15px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
 	.WelcomeWrapper {
 		width: 100%;
 		text-align: center;
-		margin-top: 10px;
+		margin-top: 13px;
 	}
 	.Content IMG.MyPhoto {
 		float: none;
@@ -212,7 +212,7 @@ DIV {
 	}
 	.WelcomeLine {
 		display: block;
-		margin-top: 10px;
+		margin-top: 7px;
 	}
 }
 
@@ -248,7 +248,7 @@ DIV {
 }
 
 .Content I {
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .Content IFRAME.Center {
@@ -266,34 +266,34 @@ DIV {
 }
 
 .Content A.Text {
-	color: #296396;
+	color: #3274AE;
 	text-decoration: none; 
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .Content A.Text:hover {
-	color: #24517B;
+	color: #2A6190;
 }
 
 .LinkBar {
 	width: 100%;
 	font-size: 19px;
-	font-weight: 300;
+	font-weight: 400;
 	margin-top: 20px;
 	margin-bottom: 0px;
-	color: #445566;
+	color: #6f8092;
 	text-align: center;
 }
 
 .LinkBar A {
-	color: #296396;
+	color: #3274AE;
 	font-size: 17px;
-	font-weight: 400;
+	font-weight: 500;
 	text-decoration: none;
 }
 
 .LinkBar A:hover {
-	color: #24517B;
+	color: #2A6190;
 }
 
 .LinkBar T {
@@ -301,7 +301,7 @@ DIV {
 	padding-right: 5px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
 	.LinkBar T {
 		float: left;
 		color: #FFFFFF;
@@ -316,9 +316,9 @@ DIV {
 
 .ResumeHeader {
 	width: 100%;
-	background-color: #E1EEF8;
+	background-color: #E1F2FF;
 	color: #233A52;
-	font-weight: 400;
+	font-weight: 500;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 12px;
@@ -328,7 +328,7 @@ DIV {
 	border-radius: 2px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
 	.ResumeHeader {
 		text-align: center;
 	}
@@ -341,7 +341,7 @@ DIV {
 	margin-bottom: 0px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
 	.ResumeOccupation {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -350,35 +350,35 @@ DIV {
 
 .ResumeOccupation T.Title {
 	float: left;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 }
 
 .ResumeOccupation T.TitleCompanySeparator {
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 }
 
 .ResumeOccupation T.Company {
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 }
 
 .ResumeOccupation T.Dates {
 	float: right;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 15px;
 }
 
 .ResumeOccupation I.Comment {
 	float: left;
 	width: 100%;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 13px;
-	color: #445566;
+	color: #6f8092;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
 	.ResumeOccupation T.Title {
 		width: 100%;
 	}
@@ -389,7 +389,7 @@ DIV {
 		float: left;
 		width: 100%;
 		font-size: 14px;
-		color: #445566
+		color: #6f8092;
 	}
 	.ResumeOccupation I.Comment {
 		display: none;
@@ -405,10 +405,10 @@ DIV {
 	text-align: justify;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
 	.JobDescription {
-		padding-left: 5px;
-		padding-right: 5px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
 
@@ -421,7 +421,7 @@ DIV {
 	text-align: justify;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 630px) {
 	.ResumeItem {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -437,18 +437,18 @@ DIV {
 }
 
 .Content T.Conference {
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 13px;
-	color: #445566
+	color: #6f8092;
 }
 
 .Content A.Title {
-	color: #296396;
+	color: #3274AE;
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 17px;
 }
 
 .Content A.Title:hover {
-	color: #24517B;
+	color: #2A6190;
 }
