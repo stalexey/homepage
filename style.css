@@ -427,10 +427,9 @@ DIV {
 	border-width: 1px;
 	border-color: #DDDDDD;
 	border-style: solid;
-	border-radius: 0px;
-	max-width: 25%;
+	max-width: 22%;
 	box-sizing: border-box;
-	border-radius: 2px;
+	border-radius: 4px;
 }
 
 .Paper {
@@ -440,7 +439,7 @@ DIV {
 
 .PaperInfo {
 	text-align: left;
-	line-height: 22px;
+	line-height: 20px;
 	font-size: 15px;
 }
 
