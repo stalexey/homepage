@@ -62,7 +62,7 @@ DIV {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 10px;
-	padding-bottom: 12px;
+	padding-bottom: 11px;
 }
 
 .NavigationBar A.Menu {
@@ -72,7 +72,7 @@ DIV {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 11px;
-	padding-bottom: 13px;
+	padding-bottom: 12px;
 }
 
 .NavigationBar A.Icon {
@@ -81,7 +81,7 @@ DIV {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 8px;
-	padding-bottom: 11px;
+	padding-bottom: 10px;
 }
 
 @media (hover) {
@@ -143,7 +143,7 @@ DIV {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 5px;
-	padding-bottom: 7px;
+	padding-bottom: 6px;
 	font-weight: 500;
 	font-size: 16px;
 	color: #233A52;
@@ -312,7 +312,7 @@ DIV {
 	color: #233A52;
 	font-weight: 500;
 	padding-top: 5px;
-	padding-bottom: 7px;
+	padding-bottom: 6px;
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-top: 20px;
