@@ -146,6 +146,7 @@ DIV {
 	font-weight: 500;
 	font-size: 16px;
 	color: #233A52;
+	width: 100%;
 }
 
 .Content {
@@ -214,18 +215,6 @@ DIV {
 		display: block;
 		margin-top: 7px;
 	}
-}
-
-.Content IMG.BorderTopLeft {
-	margin-left: 0px;
-	margin-right: 20px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	border-width: 1px;
-	border-color: #DDDDDD;
-	border-style: solid;
-	border-radius: 0px;
-	max-width: 100%;
 }
 
 .Content IMG.TopLeft {
@@ -429,12 +418,40 @@ DIV {
 	}
 }
 
+.Content IMG.PaperThumbnail {
+	display: block;
+	float: left;
+	margin-right: 20px;
+	border-width: 1px;
+	border-color: #DDDDDD;
+	border-style: solid;
+	border-radius: 0px;
+	max-width: 40%;
+	box-sizing: border-box;
+}
+
 .Paper {
+	margin-top: 20px;
 	width: 100%;
-	padding-top: 20px;
-	text-align: justify;
+}
+
+.PaperInfo {
+	text-align: left;
 	line-height: 25px;
 	font-size: 15px;
+}
+
+@media (max-width: 630px) {
+	.PaperInfo {
+		width: 100%;
+		padding-top: 10px;
+		text-align: center;
+	}
+	.Content IMG.PaperThumbnail {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 .Content T.Conference {
