@@ -447,7 +447,7 @@ DIV {
 @media (max-width: 630px) {
 	.PaperInfo {
 		width: 100%;
-		padding-top: 10px;
+		padding-top: 7px;
 		text-align: center;
 	}
 	.Content IMG.PaperThumbnail {
