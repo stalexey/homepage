@@ -29,7 +29,7 @@ DIV {
 }
 
 .Header {
-	background-color: #275390;
+	background-color: #29538E;
 	box-shadow: 0px 0px 5px grey;
 	position: fixed;
 	top: 0px;
@@ -77,7 +77,7 @@ DIV {
 
 @media (hover) {
 	.NavigationBar A:hover {
-		background-color: #224d8a;
+		background-color: #264C82;
 	}
 }
 
