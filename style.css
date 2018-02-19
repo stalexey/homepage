@@ -24,7 +24,7 @@ DIV {
 }
 
 .Body {
-	margin-top: 41px;
+	margin-top: 43px;
 	width: 100%;
 }
 
@@ -61,8 +61,8 @@ DIV {
 	font-size: 17px;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 10px;
-	padding-bottom: 11px;
+	padding-top: 11px;
+	padding-bottom: 12px;
 }
 
 .NavigationBar A.Menu {
@@ -71,8 +71,8 @@ DIV {
 	font-size: 15px;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 11px;
-	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-bottom: 13px;
 }
 
 .NavigationBar A.Icon {
@@ -80,8 +80,8 @@ DIV {
 	font-size: 17px;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 8px;
-	padding-bottom: 10px;
+	padding-top: 9px;
+	padding-bottom: 11px;
 }
 
 @media (hover) {
@@ -142,8 +142,8 @@ DIV {
 	background-color: #D1E7FF;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 5px;
-	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-bottom: 7px;
 	font-weight: 500;
 	font-size: 16px;
 	color: #233A52;
@@ -228,7 +228,7 @@ DIV {
 .Content IMG.Center {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 19px;
 	display: block;
 	max-width: 100%;
 }
@@ -311,8 +311,8 @@ DIV {
 	background-color: #E1F2FF;
 	color: #233A52;
 	font-weight: 500;
-	padding-top: 5px;
-	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-bottom: 7px;
 	padding-left: 12px;
 	padding-right: 12px;
 	margin-top: 18px;
