@@ -191,7 +191,7 @@ DIV {
 	border-width: 1px;
 	border-color: #DDDDDD;
 	border-style: solid;
-	border-radius: 0px;
+	border-radius: 2px;
 	max-width: 100%;
 	box-sizing: border-box;
 }
@@ -429,7 +429,7 @@ DIV {
 	border-style: solid;
 	max-width: 22%;
 	box-sizing: border-box;
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .Paper {
