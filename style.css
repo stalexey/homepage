@@ -2,9 +2,9 @@ BODY {
 	background: #C3CBDA;
 	margin: 0px;
 	padding: 0px;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 400;
-	font-family: 'Barlow', Arial, sans-serif, Helvetica;
+	font-family: Roboto, Arial, sans-serif, Helvetica;
 	color: #000000;
 }
 
@@ -17,7 +17,7 @@ DIV {
 
 .Padder {
 	width: 960px;
-	min-width: 75%;
+	min-width: 70%;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -29,7 +29,7 @@ DIV {
 }
 
 .Header {
-	background-color: #29538E;
+	background-color: #2259a7;
 	box-shadow: 0px 0px 5px grey;
 	position: fixed;
 	top: 0px;
@@ -57,36 +57,36 @@ DIV {
 
 .NavigationBar A.Home {
 	float: left;
-	font-weight: 600;
-	font-size: 17px;
+	font-weight: 500;
+	font-size: 16px;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 11px;
+	padding-top: 12px;
 	padding-bottom: 12px;
 }
 
 .NavigationBar A.Menu {
 	float: right;
-	font-weight: 500;
-	font-size: 15px;
+	font-weight: 400;
+	font-size: 14px;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 12px;
+	padding-top: 13px;
 	padding-bottom: 13px;
 }
 
 .NavigationBar A.Icon {
-	font-weight: 600;
-	font-size: 17px;
+	font-weight: 500;
+	font-size: 16px;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 9px;
-	padding-bottom: 11px;
+	padding-top: 10px;
+	padding-bottom: 12px;
 }
 
 @media (hover) {
 	.NavigationBar A:hover {
-		background-color: #264C82;
+		background-color: #20549e;
 	}
 }
 
@@ -139,14 +139,14 @@ DIV {
 }
 
 .Label {
-	background-color: #D1E7FF;
+	background-color: #d2e7ff;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 7px;
+	padding-top: 8px;
 	padding-bottom: 8px;
 	font-weight: 500;
-	font-size: 16px;
-	color: #233A52;
+	font-size: 15px;
+	color: #395777;
 	width: 100%;
 }
 
@@ -162,7 +162,7 @@ DIV {
 }
 
 .Content FONT.Big {
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .Content P {
@@ -258,13 +258,13 @@ DIV {
 }
 
 .Content A.Text {
-	color: #3274AE;
+	color: #3482c7;
 	text-decoration: none; 
 	font-weight: 500;
 }
 
 .Content A.Text:hover {
-	color: #2A6190;
+	color: #2c6fab;
 }
 
 .LinkBar {
@@ -278,14 +278,14 @@ DIV {
 }
 
 .LinkBar A {
-	color: #3274AE;
-	font-size: 17px;
+	color: #3482c7;
+	font-size: 16px;
 	font-weight: 500;
 	text-decoration: none;
 }
 
 .LinkBar A:hover {
-	color: #2A6190;
+	color: #2c6fab;
 }
 
 .LinkBar T {
@@ -309,7 +309,7 @@ DIV {
 .ResumeHeader {
 	width: 100%;
 	background-color: #E1F2FF;
-	color: #233A52;
+	color: #2c537b;
 	font-weight: 500;
 	padding-top: 6px;
 	padding-bottom: 7px;
@@ -343,30 +343,31 @@ DIV {
 .ResumeOccupation T.Title {
 	float: left;
 	font-weight: 500;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .ResumeOccupation T.TitleCompanySeparator {
 	font-weight: 500;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .ResumeOccupation T.Company {
 	font-weight: 500;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .ResumeOccupation T.Dates {
 	float: right;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 14px;
+	color: #52677d;
 }
 
 .ResumeOccupation I.Comment {
 	float: left;
 	width: 100%;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 12px;
 	color: #6f8092;
 }
 
@@ -440,35 +441,22 @@ DIV {
 .PaperInfo {
 	text-align: left;
 	line-height: 20px;
-	font-size: 15px;
+	font-size: 14px;
 }
 
-/*@media (max-width: 630px) {
-	.PaperInfo {
-		width: 100%;
-		padding-top: 7px;
-		text-align: center;
-	}
-	.Content IMG.PaperThumbnail {
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}*/
-
 .Content T.Conference {
-	font-weight: 500;
-	font-size: 13px;
+	font-weight: 400;
+	font-size: 12px;
 	color: #6f8092;
 }
 
 .Content A.Title {
-	color: #3274AE;
+	color: #3482c7;
 	text-decoration: none;
 	font-weight: 500;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .Content A.Title:hover {
-	color: #2A6190;
+	color: #2c6fab;
 }
