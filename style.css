@@ -205,7 +205,7 @@ DIV {
 	.WelcomeWrapper {
 		width: 100%;
 		text-align: center;
-		margin-top: 8px;
+		margin-top: 7px;
 	}
 	.Content IMG.MyPhoto {
 		float: none;
@@ -214,7 +214,7 @@ DIV {
 	}
 	.WelcomeLine {
 		display: block;
-		margin-top: 7px;
+		margin-top: 9px;
 	}
 }
 
@@ -297,7 +297,7 @@ DIV {
 	.LinkBar T {
 		float: left;
 		color: #FFFFFF;
-		font-size: 7px;
+		font-size: 8px;
 		width: 100%;
 	}
 	.LinkBar A {
