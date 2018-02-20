@@ -58,16 +58,16 @@ DIV {
 .NavigationBar A.Home {
 	float: left;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 17px;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 11px;
+	padding-bottom: 11px;
 }
 
 .NavigationBar A.Menu {
 	float: right;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 14px;
 	padding-left: 18px;
 	padding-right: 18px;
@@ -77,11 +77,11 @@ DIV {
 
 .NavigationBar A.Icon {
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 17px;
 	padding-left: 18px;
 	padding-right: 18px;
-	padding-top: 10px;
-	padding-bottom: 12px;
+	padding-top: 9px;
+	padding-bottom: 10px;
 }
 
 @media (hover) {
