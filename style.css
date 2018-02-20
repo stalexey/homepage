@@ -29,7 +29,7 @@ DIV {
 }
 
 .Header {
-	background-color: #2259a7;
+	background-color: #20549d;
 	box-shadow: 0px 0px 5px grey;
 	position: fixed;
 	top: 0px;
@@ -86,7 +86,7 @@ DIV {
 
 @media (hover) {
 	.NavigationBar A:hover {
-		background-color: #20549e;
+		background-color: #1e4f94;
 	}
 }
 
@@ -258,13 +258,13 @@ DIV {
 }
 
 .Content A.Text {
-	color: #3482c7;
+	color: #317dbf;
 	text-decoration: none; 
 	font-weight: 500;
 }
 
 .Content A.Text:hover {
-	color: #2c6fab;
+	color: #206bac;
 }
 
 .LinkBar {
@@ -278,14 +278,14 @@ DIV {
 }
 
 .LinkBar A {
-	color: #3482c7;
+	color: #317dbf;
 	font-size: 16px;
 	font-weight: 500;
 	text-decoration: none;
 }
 
 .LinkBar A:hover {
-	color: #2c6fab;
+	color: #206bac;
 }
 
 .LinkBar T {
@@ -311,7 +311,7 @@ DIV {
 	background-color: #E1F2FF;
 	color: #2c537b;
 	font-weight: 500;
-	padding-top: 6px;
+	padding-top: 7px;
 	padding-bottom: 7px;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -451,12 +451,12 @@ DIV {
 }
 
 .Content A.Title {
-	color: #3482c7;
+	color: #317dbf;
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 16px;
 }
 
 .Content A.Title:hover {
-	color: #2c6fab;
+	color: #206bac;
 }
