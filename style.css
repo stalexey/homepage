@@ -254,7 +254,7 @@ DIV {
 
 .Content CENTER {
 	padding-top: 18px;
-	line-height: 20px;
+	line-height: 21px;
 }
 
 .Content A.Text {
@@ -440,7 +440,7 @@ DIV {
 
 .PaperInfo {
 	text-align: left;
-	line-height: 20px;
+	line-height: 21px;
 	font-size: 14px;
 }
 
@@ -454,7 +454,7 @@ DIV {
 	color: #317dbf;
 	text-decoration: none;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .Content A.Title:hover {
