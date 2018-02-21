@@ -29,7 +29,7 @@ DIV {
 }
 
 .Header {
-	background-color: hsl(210, 66%, 37%);
+	background-color: hsl(210, 70%, 35%);
 	box-shadow: 0px 0px 5px grey;
 	position: fixed;
 	top: 0px;
@@ -86,7 +86,7 @@ DIV {
 
 @media (hover) {
 	.NavigationBar A:hover {
-		background-color: hsl(210, 66%, 35%);
+		background-color: hsl(210, 70%, 33%);
 	}
 }
 
@@ -256,13 +256,13 @@ DIV {
 }
 
 .Content A.Text {
-	color: hsl(210, 59%, 47%);
+	color: hsl(210, 65%, 45%);
 	text-decoration: none; 
 	font-weight: 500;
 }
 
 .Content A.Text:hover {
-	color: hsl(210, 69%, 40%);
+	color: hsl(210, 65%, 40%);
 }
 
 .LinkBar {
@@ -276,14 +276,14 @@ DIV {
 }
 
 .LinkBar A {
-	color: hsl(210, 59%, 47%);
+	color: hsl(210, 65%, 45%);
 	font-size: 16px;
 	font-weight: 500;
 	text-decoration: none;
 }
 
 .LinkBar A:hover {
-	color: hsl(210, 69%, 40%);
+	color: hsl(210, 65%, 40%);
 }
 
 .LinkBar T {
@@ -449,12 +449,12 @@ DIV {
 }
 
 .Content A.Title {
-	color: hsl(210, 59%, 47%);
+	color: hsl(210, 65%, 45%);
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 15px;
 }
 
 .Content A.Title:hover {
-	color: hsl(210, 69%, 40%);
+	color: hsl(210, 65%, 40%);
 }
