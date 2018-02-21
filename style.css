@@ -2,7 +2,7 @@ BODY {
 	background: hsl(210, 24%, 81%);
 	margin: 0px;
 	padding: 0px;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 400;
 	font-family: Roboto, Arial, sans-serif, Helvetica;
 	color: hsl(210, 0%, 0%);
@@ -17,14 +17,14 @@ DIV {
 
 .Padder {
 	width: 960px;
-	min-width: 70%;
+	min-width: 75%;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .Body {
-	margin-top: 43px;
+	margin-top: 44px;
 	width: 100%;
 }
 
@@ -58,7 +58,7 @@ DIV {
 .NavigationBar A.Home {
 	float: left;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 17px;
 	padding-left: 18px;
 	padding-right: 18px;
 	padding-top: 12px;
@@ -68,20 +68,20 @@ DIV {
 .NavigationBar A.Menu {
 	float: right;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 15px;
 	padding-left: 18px;
 	padding-right: 18px;
 	padding-top: 13px;
-	padding-bottom: 14px;
+	padding-bottom: 13px;
 }
 
 .NavigationBar A.Icon {
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 17px;
 	padding-left: 18px;
 	padding-right: 18px;
 	padding-top: 10px;
-	padding-bottom: 12px;
+	padding-bottom: 11px;
 }
 
 @media (hover) {
@@ -144,7 +144,7 @@ DIV {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 16px;
 	color: hsl(210, 35%, 35%);
 	width: 100%;
 }
@@ -161,7 +161,7 @@ DIV {
 }
 
 .Content FONT.Big {
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .Content P {
@@ -252,7 +252,7 @@ DIV {
 
 .Content CENTER {
 	padding-top: 18px;
-	line-height: 21px;
+	line-height: 22px;
 }
 
 .Content A.Text {
@@ -277,7 +277,7 @@ DIV {
 
 .LinkBar A {
 	color: hsl(210, 65%, 45%);
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 500;
 	text-decoration: none;
 }
@@ -341,23 +341,23 @@ DIV {
 .ResumeOccupation T.Title {
 	float: left;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .ResumeOccupation T.TitleCompanySeparator {
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .ResumeOccupation T.Company {
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .ResumeOccupation T.Dates {
 	float: right;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 15px;
 	color: hsl(210, 21%, 41%);
 }
 
@@ -365,7 +365,7 @@ DIV {
 	float: left;
 	width: 100%;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 13px;
 	color: hsl(210, 14%, 50%);
 }
 
@@ -379,7 +379,7 @@ DIV {
 	.ResumeOccupation T.Dates {
 		float: left;
 		width: 100%;
-		font-size: 14px;
+		font-size: 15px;
 		color: hsl(210, 14%, 50%);
 	}
 	.ResumeOccupation I.Comment {
@@ -438,13 +438,13 @@ DIV {
 
 .PaperInfo {
 	text-align: left;
-	line-height: 21px;
-	font-size: 14px;
+	line-height: 22px;
+	font-size: 15px;
 }
 
 .Content T.Conference {
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 13px;
 	color: hsl(210, 14%, 50%);
 }
 
@@ -452,7 +452,7 @@ DIV {
 	color: hsl(210, 65%, 45%);
 	text-decoration: none;
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .Content A.Title:hover {
