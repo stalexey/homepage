@@ -233,8 +233,8 @@ DIV {
 }
 
 .Content IMG.Padded {
-	margin-left: 18px;
-	margin-right: 18px;
+	margin: 0px;
+	padding: 0px;
 }
 
 .Content I {
