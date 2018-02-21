@@ -1,11 +1,11 @@
 BODY {
-	background: hsl(219, 24%, 81%);
+	background: hsl(210, 24%, 81%);
 	margin: 0px;
 	padding: 0px;
 	font-size: 14px;
 	font-weight: 400;
 	font-family: Roboto, Arial, sans-serif, Helvetica;
-	color: hsl(0, 0%, 0%);
+	color: hsl(210, 0%, 0%);
 }
 
 DIV {
@@ -29,7 +29,7 @@ DIV {
 }
 
 .Header {
-	background-color: hsl(215, 66%, 37%);
+	background-color: hsl(210, 66%, 37%);
 	box-shadow: 0px 0px 5px grey;
 	position: fixed;
 	top: 0px;
@@ -51,7 +51,7 @@ DIV {
 
 .NavigationBar A {
 	display: block;
-	color: hsl(0, 0%, 97%);
+	color: hsl(210, 0%, 97%);
 	text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ DIV {
 
 @media (hover) {
 	.NavigationBar A:hover {
-		background-color: hsl(215, 66%, 35%);
+		background-color: hsl(210, 66%, 35%);
 	}
 }
 
@@ -120,9 +120,9 @@ DIV {
 }
 
 .Object {
-	background-color: hsl(0, 0%, 100%);
+	background-color: hsl(210, 0%, 100%);
 	margin: 19px;
-	box-shadow: 0px 0px 5px hsl(0, 0%, 63%);
+	box-shadow: 0px 0px 5px hsl(210, 0%, 63%);
 	border-radius: 4px;
 	box-sizing: border-box;
 }
@@ -138,14 +138,14 @@ DIV {
 }
 
 .Label {
-	background-color: hsl(212, 100%, 91%);
+	background-color: hsl(210, 100%, 91%);
 	padding-left: 18px;
 	padding-right: 18px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	font-weight: 500;
 	font-size: 15px;
-	color: hsl(211, 35%, 35%);
+	color: hsl(210, 35%, 35%);
 	width: 100%;
 }
 
@@ -188,7 +188,7 @@ DIV {
 	margin-bottom: 0px;
 	padding: 0px;
 	border-width: 1px;
-	border-color: hsl(0, 0%, 87%);
+	border-color: hsl(210, 0%, 87%);
 	border-style: solid;
 	border-radius: 2px;
 	max-width: 100%;
@@ -256,13 +256,13 @@ DIV {
 }
 
 .Content A.Text {
-	color: hsl(208, 59%, 47%);
+	color: hsl(210, 59%, 47%);
 	text-decoration: none; 
 	font-weight: 500;
 }
 
 .Content A.Text:hover {
-	color: hsl(208, 69%, 40%);
+	color: hsl(210, 69%, 40%);
 }
 
 .LinkBar {
@@ -271,19 +271,19 @@ DIV {
 	font-weight: 400;
 	margin-top: 18px;
 	margin-bottom: 0px;
-	color: hsl(211, 14%, 50%);
+	color: hsl(210, 14%, 50%);
 	text-align: center;
 }
 
 .LinkBar A {
-	color: hsl(208, 59%, 47%);
+	color: hsl(210, 59%, 47%);
 	font-size: 16px;
 	font-weight: 500;
 	text-decoration: none;
 }
 
 .LinkBar A:hover {
-	color: hsl(208, 69%, 40%);
+	color: hsl(210, 69%, 40%);
 }
 
 .LinkBar T {
@@ -294,7 +294,7 @@ DIV {
 @media (max-width: 630px) {
 	.LinkBar T {
 		float: left;
-		color: hsl(0, 0%, 100%);
+		color: hsl(210, 0%, 100%);
 		font-size: 8px;
 		width: 100%;
 	}
@@ -306,7 +306,7 @@ DIV {
 
 .ResumeHeader {
 	width: 100%;
-	background-color: hsl(206, 100%, 94%);
+	background-color: hsl(210, 100%, 94%);
 	color: hsl(210, 47%, 33%);
 	font-weight: 500;
 	padding-top: 7px;
@@ -358,7 +358,7 @@ DIV {
 	float: right;
 	font-weight: 400;
 	font-size: 14px;
-	color: hsl(211, 21%, 41%);
+	color: hsl(210, 21%, 41%);
 }
 
 .ResumeOccupation I.Comment {
@@ -366,7 +366,7 @@ DIV {
 	width: 100%;
 	font-weight: 400;
 	font-size: 12px;
-	color: hsl(211, 14%, 50%);
+	color: hsl(210, 14%, 50%);
 }
 
 @media (max-width: 630px) {
@@ -380,7 +380,7 @@ DIV {
 		float: left;
 		width: 100%;
 		font-size: 14px;
-		color: hsl(211, 14%, 50%);
+		color: hsl(210, 14%, 50%);
 	}
 	.ResumeOccupation I.Comment {
 		display: none;
@@ -424,7 +424,7 @@ DIV {
 	float: left;
 	margin-right: 18px;
 	border-width: 1px;
-	border-color: hsl(0, 0%, 87%);
+	border-color: hsl(210, 0%, 87%);
 	border-style: solid;
 	max-width: 22%;
 	box-sizing: border-box;
@@ -445,16 +445,16 @@ DIV {
 .Content T.Conference {
 	font-weight: 400;
 	font-size: 12px;
-	color: hsl(211, 14%, 50%);
+	color: hsl(210, 14%, 50%);
 }
 
 .Content A.Title {
-	color: hsl(208, 59%, 47%);
+	color: hsl(210, 59%, 47%);
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 15px;
 }
 
 .Content A.Title:hover {
-	color: hsl(208, 69%, 40%);
+	color: hsl(210, 69%, 40%);
 }
