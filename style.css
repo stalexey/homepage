@@ -29,7 +29,7 @@ DIV {
 }
 
 .Header {
-	background-color: hsl(210, 70%, 35%);
+	background-color: hsl(210, 70%, 33%);
 	box-shadow: 0px 0px 5px grey;
 	position: fixed;
 	top: 0px;
@@ -86,7 +86,7 @@ DIV {
 
 @media (hover) {
 	.NavigationBar A:hover {
-		background-color: hsl(210, 70%, 33%);
+		background-color: hsl(210, 70%, 31%);
 	}
 }
 
@@ -145,7 +145,7 @@ DIV {
 	padding-bottom: 8px;
 	font-weight: 500;
 	font-size: 16px;
-	color: hsl(210, 35%, 35%);
+	color: hsl(210, 45%, 33%);
 	width: 100%;
 }
 
@@ -256,13 +256,13 @@ DIV {
 }
 
 .Content A.Text {
-	color: hsl(210, 65%, 45%);
+	color: hsl(210, 65%, 43%);
 	text-decoration: none; 
 	font-weight: 500;
 }
 
 .Content A.Text:hover {
-	color: hsl(210, 65%, 40%);
+	color: hsl(210, 65%, 38%);
 }
 
 .LinkBar {
@@ -271,19 +271,19 @@ DIV {
 	font-weight: 400;
 	margin-top: 18px;
 	margin-bottom: 0px;
-	color: hsl(210, 14%, 50%);
+	color: hsl(210, 14%, 48%);
 	text-align: center;
 }
 
 .LinkBar A {
-	color: hsl(210, 65%, 45%);
+	color: hsl(210, 65%, 43%);
 	font-size: 17px;
 	font-weight: 500;
 	text-decoration: none;
 }
 
 .LinkBar A:hover {
-	color: hsl(210, 65%, 40%);
+	color: hsl(210, 65%, 38%);
 }
 
 .LinkBar T {
@@ -307,7 +307,7 @@ DIV {
 .ResumeHeader {
 	width: 100%;
 	background-color: hsl(210, 100%, 94%);
-	color: hsl(210, 47%, 33%);
+	color: hsl(210, 45%, 33%);
 	font-weight: 500;
 	padding-top: 7px;
 	padding-bottom: 7px;
@@ -366,7 +366,7 @@ DIV {
 	width: 100%;
 	font-weight: 400;
 	font-size: 13px;
-	color: hsl(210, 14%, 50%);
+	color: hsl(210, 14%, 48%);
 }
 
 @media (max-width: 630px) {
@@ -380,7 +380,7 @@ DIV {
 		float: left;
 		width: 100%;
 		font-size: 15px;
-		color: hsl(210, 14%, 50%);
+		color: hsl(210, 14%, 48%);
 	}
 	.ResumeOccupation I.Comment {
 		display: none;
@@ -445,16 +445,16 @@ DIV {
 .Content T.Conference {
 	font-weight: 400;
 	font-size: 13px;
-	color: hsl(210, 14%, 50%);
+	color: hsl(210, 14%, 48%);
 }
 
 .Content A.Title {
-	color: hsl(210, 65%, 45%);
+	color: hsl(210, 65%, 43%);
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 16px;
 }
 
 .Content A.Title:hover {
-	color: hsl(210, 65%, 40%);
+	color: hsl(210, 65%, 38%);
 }
