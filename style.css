@@ -171,6 +171,7 @@ DIV {
 	margin-right: 0;
 	margin-top: 18px;
 	margin-bottom: 0px;
+	line-height: 19px;
 }
 
 .WelcomeWrapper {
@@ -366,6 +367,7 @@ DIV {
 	width: 100%;
 	font-weight: 300;
 	font-size: 13px;
+	padding-top: 1px;
 	color: hsl(210, 14%, 48%);
 }
 
@@ -394,6 +396,7 @@ DIV {
 	margin-top: 12px;
 	margin-bottom: 0px;
 	text-align: justify;
+	line-height: 19px;
 }
 
 @media (max-width: 630px) {
@@ -410,6 +413,7 @@ DIV {
 	margin-top: 12px;
 	margin-bottom: 0px;
 	text-align: justify;
+	line-height: 19px;
 }
 
 @media (max-width: 630px) {
