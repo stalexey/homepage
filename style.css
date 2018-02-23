@@ -4,7 +4,7 @@ BODY {
 	padding: 0px;
 	font-size: 15px;
 	font-weight: 400;
-	font-family: Roboto, Arial, sans-serif, Helvetica;
+	font-family: Ubuntu, Arial, sans-serif, Helvetica;
 	color: hsl(210, 0%, 0%);
 }
 
@@ -24,7 +24,7 @@ DIV {
 }
 
 .Body {
-	margin-top: 44px;
+	margin-top: 43px;
 	width: 100%;
 }
 
@@ -81,7 +81,7 @@ DIV {
 	padding-left: 18px;
 	padding-right: 18px;
 	padding-top: 10px;
-	padding-bottom: 11px;
+	padding-bottom: 10px;
 }
 
 @media (hover) {
