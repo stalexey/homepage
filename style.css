@@ -1,5 +1,5 @@
 BODY {
-	background: hsl(210, 24%, 81%);
+	background: hsl(210, 0%, 81%);
 	margin: 0px;
 	padding: 0px;
 	font-size: 14px;
@@ -272,7 +272,7 @@ DIV {
 	font-weight: 400;
 	margin-top: 18px;
 	margin-bottom: 0px;
-	color: hsl(210, 14%, 48%);
+	color: hsl(210, 0%, 48%);
 	text-align: center;
 }
 
@@ -359,7 +359,7 @@ DIV {
 	float: right;
 	font-weight: 400;
 	font-size: 14px;
-	color: hsl(210, 21%, 41%);
+	color: hsl(210, 0%, 41%);
 }
 
 .ResumeOccupation I.Comment {
@@ -367,7 +367,7 @@ DIV {
 	width: 100%;
 	font-weight: 400;
 	font-size: 12px;
-	color: hsl(210, 14%, 48%);
+	color: hsl(210, 0%, 48%);
 }
 
 @media (max-width: 630px) {
@@ -381,7 +381,7 @@ DIV {
 		float: left;
 		width: 100%;
 		font-size: 14px;
-		color: hsl(210, 14%, 48%);
+		color: hsl(210, 0%, 48%);
 	}
 	.ResumeOccupation I.Comment {
 		display: none;
@@ -446,7 +446,7 @@ DIV {
 .Content T.Conference {
 	font-weight: 400;
 	font-size: 12px;
-	color: hsl(210, 14%, 48%);
+	color: hsl(210, 0%, 48%);
 }
 
 .Content A.Title {
