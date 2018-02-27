@@ -139,7 +139,7 @@ DIV {
 }
 
 .Label {
-	background-color: hsl(210, 100%, 91%);
+	background-color: hsl(210, 100%, 92%);
 	padding-left: 18px;
 	padding-right: 18px;
 	padding-top: 8px;
@@ -307,7 +307,7 @@ DIV {
 
 .ResumeHeader {
 	width: 100%;
-	background-color: hsl(210, 100%, 94%);
+	background-color: hsl(210, 100%, 95%);
 	color: hsl(210, 45%, 33%);
 	font-weight: 600;
 	padding-top: 7px;
