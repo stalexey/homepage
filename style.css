@@ -146,7 +146,7 @@ DIV {
 	padding-bottom: 8px;
 	font-weight: 600;
 	font-size: 15px;
-	color: hsl(210, 40%, 33%);
+	color: hsl(210, 45%, 33%);
 	width: 100%;
 }
 
@@ -308,7 +308,7 @@ DIV {
 .ResumeHeader {
 	width: 100%;
 	background-color: hsl(210, 100%, 95%);
-	color: hsl(210, 40%, 33%);
+	color: hsl(210, 45%, 33%);
 	font-weight: 600;
 	padding-top: 7px;
 	padding-bottom: 7px;
