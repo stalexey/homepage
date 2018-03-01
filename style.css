@@ -97,10 +97,6 @@ DIV {
 	display: none;
 }
 
-.NavigationBar SVG.Icon {
-	fill: hsl(210, 0%, 97%);
-}
-
 @media screen and (max-width: 630px) {
 	.NavigationBar A:not(:first-child) {
 		display: none;
