@@ -9,25 +9,16 @@
   <LINK rel="shortcut icon" href="http://alexey.stomakhin.com/favicon.ico" type="image/x-icon"> 
   <LINK rel="stylesheet" href="style.css" type="text/css">
   <LINK href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+  <SCRIPT type="text/javascript" src="scripts.js"></SCRIPT>
 </HEAD>
 
 <BODY marginwidth=0 marginheight=0>
 
-  <SCRIPT>
-    function myFunction() {
-      var x = document.getElementById("NavigaionBarID");
-      if (x.className === "NavigationBar") {
-        x.className += " Responsive";
-      } else {
-        x.className = "NavigationBar";
-      }
-    }
-  </SCRIPT>
   <DIV class="Header">
     <DIV class="Padder">
       <DIV class="NavigationBar" id="NavigaionBarID">
         <A class="Home" href="index.html">Alexey Stomakhin</A>
-        <A href="javascript:void(0);" class="Icon" onclick="myFunction()">&#9776;</A>
+        <A class="Icon" href="javascript:void(0);" onclick="toggleMenu()">&#9776;</A>
         <A class="Menu" href="resume.html">Resume</A>
         <A class="Menu" href="research.html">Research</A>
         <A class="Menu" href="index.html">Home</A>

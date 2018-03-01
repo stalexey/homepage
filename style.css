@@ -85,10 +85,8 @@ DIV {
 	padding-bottom: 12px;
 }
 
-@media (hover) {
-	.NavigationBar A:hover {
-		background-color: hsl(210, 70%, 31%);
-	}
+.NavigationBar A:hover {
+	background-color: hsl(210, 70%, 31%);
 }
 
 .NavigationBar .Icon {
