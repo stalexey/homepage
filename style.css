@@ -85,10 +85,6 @@ DIV {
 	padding-bottom: 12px;
 }
 
-.NavigationBar A:hover {
-	background-color: hsl(210, 70%, 31%);
-}
-
 .NavigationBar A.Icon {
 	display: none;
 }
@@ -260,10 +256,6 @@ DIV {
 	font-weight: 600;
 }
 
-.Content A.Text:hover {
-	color: hsl(210, 65%, 38%);
-}
-
 .LinkBar {
 	width: 100%;
 	font-size: 17px;
@@ -279,10 +271,6 @@ DIV {
 	font-size: 16px;
 	font-weight: 600;
 	text-decoration: none;
-}
-
-.LinkBar A:hover {
-	color: hsl(210, 65%, 38%);
 }
 
 .LinkBar T {
@@ -452,8 +440,4 @@ DIV {
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 16px;
-}
-
-.Content A.Title:hover {
-	color: hsl(210, 65%, 38%);
 }
