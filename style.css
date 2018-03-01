@@ -89,12 +89,16 @@ DIV {
 	background-color: hsl(210, 70%, 31%);
 }
 
-.NavigationBar .Icon {
+.NavigationBar A.Icon {
 	display: none;
 }
 
 .NavigationBar A:last-child {
 	display: none;
+}
+
+.NavigationBar SVG.Icon {
+	fill: hsl(210, 0%, 97%);
 }
 
 @media screen and (max-width: 630px) {
