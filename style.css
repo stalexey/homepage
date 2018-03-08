@@ -50,6 +50,10 @@ DIV {
 	}
 }
 
+.NavigationBar .IconDrawing {
+	fill: hsl(210, 0%, 97%);
+}
+
 .NavigationBar A {
 	display: block;
 	color: hsl(210, 0%, 97%);
