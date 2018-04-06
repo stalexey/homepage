@@ -54,7 +54,16 @@
           </CENTER>
 
           <P>
-            Hybrid Lagrangian/Eulerian simulation is commonplace in computer graphics for fluids and other materials undergoing large deformation. In these methods, particles are used to resolve transport and topological change, while a background Eulerian grid is used for computing mechanical forces and collision responses. Particle-in-Cell (PIC) techniques, particularly the Fluid Implicit Particle (FLIP) variants have become the norm in computer graphics calculations. While these approaches have proven very powerful, they do suffer from some well known limitations. The original PIC is stable, but highly dissipative, while FLIP, designed to remove this dissipation, is more noisy and at times, unstable. We present a novel technique designed to retain the stability of the original PIC, without suffering from the noise and instability of FLIP. Our primary observation is that the dissipation in the original PIC results from a loss of information when transferring between grid and particle representations. We prevent this loss of information by augmenting each particle with a locally affine, rather than locally constant, description of the velocity. We show that this not only stably removes the dissipation of PIC, but that it also allows for exact conservation of angular momentum across the transfers between particles and grid.
+            We provide a smooth extension of arbitrary isotropic hyperelastic energy density functions to inverted
+            configurations. This extension is designed to improve robustness for elasticity simulations with extremely
+            large deformations. We show that our energy-based approach is significantly more robust to large deformations
+            than previous approaches. Furthermore, we show that the robustness and stability of a hyperelastic
+            model can be predicted from a characteristic contour, which we call its primary contour. The
+            extension to inverted configurations is defined via extrapolation from a convex threshold surface that
+            lies in the uninverted portion of the principal stretches space. The extended hyperelastic energy density
+            yields continuous stress and unambiguous stress derivatives in all inverted configurations. We show that our invertible energy-density-based approach outperforms the popular hyperelastic
+            corotated model, and we also show how to use the primary contour methodology to improve
+            the robustness of this model to large deformations.
           </P>
 
         </DIV>
