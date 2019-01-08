@@ -17,8 +17,8 @@ DIV {
 }
 
 .Padder {
-	width: 960px;
-	min-width: 75%;
+	width: 1000px;
+	min-width: 70%;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -43,7 +43,7 @@ DIV {
 	width: 100%;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 666px) {
 	.NavigationBar {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -101,7 +101,7 @@ DIV {
 	display: none;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 666px) {
 	.NavigationBar A:not(:first-child) {
 		display: none;
 	}
@@ -130,7 +130,7 @@ DIV {
 	box-sizing: border-box;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 666px) {
 	.Object {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -178,8 +178,8 @@ DIV {
 
 .WelcomeWrapper {
 	display: block;
-	float: left;
-	margin-top: 18px;
+	text-align: center;
+	margin-top: 80px;
 }
 
 .Content IMG.MyPhoto {
@@ -203,10 +203,8 @@ DIV {
 	margin-top: 15px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 666px) {
 	.WelcomeWrapper {
-		width: 100%;
-		text-align: center;
 		margin-top: 7px;
 	}
 	.Content IMG.MyPhoto {
@@ -215,7 +213,6 @@ DIV {
 		margin-right: auto;
 	}
 	.WelcomeLine {
-		display: block;
 		margin-top: 9px;
 	}
 }
@@ -294,7 +291,7 @@ DIV {
 	padding-right: 5px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 666px) {
 	.LinkBar T {
 		float: left;
 		color: hsl(210, 0%, 100%);
@@ -321,7 +318,7 @@ DIV {
 	border-radius: 2px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 666px) {
 	.ResumeHeader {
 		text-align: center;
 	}
@@ -334,7 +331,7 @@ DIV {
 	margin-bottom: 0px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 666px) {
 	.ResumeOccupation {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -372,7 +369,7 @@ DIV {
 	color: hsl(210, 0%, 48%);
 }
 
-@media (max-width: 630px) {
+@media (max-width: 666px) {
 	.ResumeOccupation T.Title {
 		width: 100%;
 	}
@@ -399,7 +396,7 @@ DIV {
 	text-align: justify;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 666px) {
 	.JobDescription {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -415,7 +412,7 @@ DIV {
 	text-align: justify;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 666px) {
 	.ResumeItem {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -460,4 +457,21 @@ DIV {
 
 .Content A.Title:hover {
 	color: hsl(210, 65%, 38%);
+}
+
+.fa {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 6px;
+  padding-top: 10px;
+  width: 33px;
+  height: 23px;
+  text-decoration: none;
+  border-radius: 25%;
+  background-color: hsl(210, 20%, 72%);
+  color: white;
+}
+
+.fa:hover {
+    background: hsl(210, 20%, 70%);
 }
