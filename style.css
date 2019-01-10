@@ -297,7 +297,6 @@ I {
 .Content .ButtonBar
 {
 	width: 100%;
-	font-size: 14px;
 	font-weight: 600;
 	margin-top: 8px;
 	margin-bottom: 0px;
@@ -307,23 +306,24 @@ I {
 
 .Content A.Button {
 	border-radius: 6px;
+	font-size: 15px;
 	display: inline-block;
-	padding: 8px 11px 9px 11px;
+	padding: 9px 11px 10px 11px;
 	margin: 10px 2px 0px 2px;
-	background: hsl(210, 20%, 72%);
+	background: hsl(210, 20%, 92%);
 	text-decoration: none;
-	color: white;
+	color: hsl(210, 65%, 43%);
 }
 
 .Content A.Button:hover {
-	background: hsl(210, 20%, 70%);
+	background: hsl(210, 20%, 90%);
 }
 
 .Content A.Button.Social {
-    padding: 7px 0px 0px 0px;
+    padding: 9px 0px 0px 0px;
     margin: 5px 3px 0px 3px;
-	width: 33px;
-    height: 26px;
+	width: 37px;
+    height: 28px;
 }
 
 .ResumeHeader {
