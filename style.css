@@ -165,6 +165,7 @@ DIV {
 
 I {
 	font-style: normal;
+	font-weight: 400;
 }
 
 .Content FONT.Big {
@@ -309,7 +310,7 @@ I {
 	display: inline-block;
 	border-radius: 6px;
 	font-size: 15px;
-	padding: 9px 11px 10px 11px;
+	padding: 9px 11px 9px 11px;
 	margin: 11px 3px 0px 3px;
 	background: hsl(210, 30%, 93%);
 	color: hsl(210, 65%, 43%);
@@ -321,10 +322,10 @@ I {
 }
 
 .Content A.Button.Social {
-    padding: 9px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     margin-top: 5px;
 	width: 37px;
-    height: 28px;
+    height: 27px;
 }
 
 .ResumeHeader {
