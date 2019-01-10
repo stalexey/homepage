@@ -317,6 +317,7 @@ I {
 
 .Content A.Button:hover {
 	background: hsl(210, 30%, 91%);
+	color: hsl(210, 65%, 38%);
 }
 
 .Content A.Button.Social {
