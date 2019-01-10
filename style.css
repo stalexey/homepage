@@ -396,6 +396,11 @@ I {
 	color: hsl(210, 0%, 48%);
 }
 
+T.Hide
+{
+	display: none;
+}
+
 @media (max-width: 666px) {
 	.ResumeOccupation T.Title {
 		width: 100%;
@@ -411,6 +416,10 @@ I {
 	}
 	.ResumeOccupation I.Comment {
 		display: none;
+	}
+	T.Hide
+	{
+		display: initial;
 	}
 }
 
