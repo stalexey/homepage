@@ -163,6 +163,10 @@ DIV {
 	font-weight: 600;
 }
 
+I {
+	text-decoration: none;
+}
+
 .Content FONT.Big {
 	font-size: 16px;
 }
@@ -237,22 +241,8 @@ DIV {
 	padding: 0px;
 }
 
-.Content I {
-	font-weight: 600;
-	font-style: normal;
-}
-
-.Content IFRAME.Center {
-	border-width: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 18px;
-	display: block;
-}
-
 .Content CENTER {
 	padding-top: 18px;
-	line-height: 22px;
 }
 
 .Content A.Text {
@@ -302,6 +292,38 @@ DIV {
 		width: 100%;
 		float: left;
 	}
+}
+
+.Content .ButtonBar
+{
+	width: 100%;
+	font-size: 15px;
+	font-weight: 400;
+	margin-top: 8px;
+	margin-bottom: 0px;
+	color: hsl(210, 0%, 48%);
+	text-align: center;
+}
+
+.Content A.Button {
+	border-radius: 6px;
+	display: inline-block;
+	padding: 8px 11px 9px 11px;
+	margin: 10px 2px 0px 2px;
+	background: hsl(210, 20%, 72%);
+	text-decoration: none;
+	color: white;
+}
+
+.Content A.Button:hover {
+	background: hsl(210, 20%, 70%);
+}
+
+.Content A.Button.Social {
+    padding: 7px 0px 0px 0px;
+    margin: 5px 3px 0px 3px;
+	width: 33px;
+    height: 26px;
 }
 
 .ResumeHeader {
@@ -457,21 +479,4 @@ DIV {
 
 .Content A.Title:hover {
 	color: hsl(210, 65%, 38%);
-}
-
-.fa {
-  margin-left: 3px;
-  margin-right: 3px;
-  margin-top: 5px;
-  padding-top: 10px;
-  width: 33px;
-  height: 23px;
-  text-decoration: none;
-  border-radius: 25%;
-  background-color: hsl(210, 20%, 72%);
-  color: white;
-}
-
-.fa:hover {
-    background: hsl(210, 20%, 70%);
 }
