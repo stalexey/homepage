@@ -164,7 +164,7 @@ DIV {
 }
 
 I {
-	text-decoration: none;
+	font-style: normal;
 }
 
 .Content FONT.Big {
@@ -310,13 +310,13 @@ I {
 	display: inline-block;
 	padding: 9px 11px 10px 11px;
 	margin: 10px 2px 0px 2px;
-	background: hsl(210, 20%, 92%);
+	background: hsl(210, 20%, 93%);
 	text-decoration: none;
-	color: hsl(210, 65%, 43%);
+	color: hsl(210, 60%, 43%);
 }
 
 .Content A.Button:hover {
-	background: hsl(210, 20%, 90%);
+	background: hsl(210, 20%, 91%);
 }
 
 .Content A.Button.Social {
@@ -451,6 +451,10 @@ I {
 	max-width: 22%;
 	box-sizing: border-box;
 	border-radius: 2px;
+}
+
+.Content IMG.PaperThumbnail:hover {
+	
 }
 
 .Paper {
