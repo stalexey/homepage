@@ -297,8 +297,8 @@ I {
 .Content .ButtonBar
 {
 	width: 100%;
-	font-size: 15px;
-	font-weight: 400;
+	font-size: 14px;
+	font-weight: 600;
 	margin-top: 8px;
 	margin-bottom: 0px;
 	color: hsl(210, 0%, 48%);
