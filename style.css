@@ -305,18 +305,18 @@ I {
 }
 
 .Content A.Button {
+	text-decoration: none;
+	display: inline-block;
 	border-radius: 6px;
 	font-size: 15px;
-	display: inline-block;
 	padding: 9px 11px 10px 11px;
 	margin: 11px 3px 0px 3px;
-	background: hsl(210, 20%, 93%);
-	text-decoration: none;
-	color: hsl(210, 60%, 43%);
+	background: hsl(210, 30%, 93%);
+	color: hsl(210, 65%, 43%);
 }
 
 .Content A.Button:hover {
-	background: hsl(210, 20%, 91%);
+	background: hsl(210, 30%, 91%);
 }
 
 .Content A.Button.Social {
@@ -343,6 +343,9 @@ I {
 @media (max-width: 666px) {
 	.ResumeHeader {
 		text-align: center;
+		border-radius: 0px;
+		padding-top: 6px;
+		padding-bottom: 6px;
 	}
 }
 
