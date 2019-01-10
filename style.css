@@ -298,7 +298,7 @@ I {
 {
 	width: 100%;
 	font-weight: 600;
-	margin-top: 8px;
+	margin-top: 7px;
 	margin-bottom: 0px;
 	color: hsl(210, 0%, 48%);
 	text-align: center;
@@ -309,7 +309,7 @@ I {
 	font-size: 15px;
 	display: inline-block;
 	padding: 9px 11px 10px 11px;
-	margin: 10px 2px 0px 2px;
+	margin: 11px 3px 0px 3px;
 	background: hsl(210, 20%, 93%);
 	text-decoration: none;
 	color: hsl(210, 60%, 43%);
@@ -321,7 +321,7 @@ I {
 
 .Content A.Button.Social {
     padding: 9px 0px 0px 0px;
-    margin: 5px 3px 0px 3px;
+    margin-top: 5px;
 	width: 37px;
     height: 28px;
 }
