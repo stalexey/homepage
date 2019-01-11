@@ -196,7 +196,7 @@ I {
 	margin-bottom: 0px;
 	padding: 0px;
 	border-width: 1px;
-	border-color: hsl(210, 0%, 87%);
+	border-color: hsl(210, 0%, 89%);
 	border-style: solid;
 	border-radius: 2px;
 	max-width: 100%;
@@ -420,7 +420,7 @@ T.Hide
 	float: left;
 	margin-right: 18px;
 	border-width: 1px;
-	border-color: hsl(210, 0%, 87%);
+	border-color: hsl(210, 0%, 89%);
 	border-style: solid;
 	max-width: 22%;
 	box-sizing: border-box;
