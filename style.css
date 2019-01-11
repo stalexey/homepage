@@ -137,6 +137,7 @@ DIV {
 		margin-top: 10px;
 		margin-bottom: 10px;
 		border-radius: 0px;
+		box-shadow: 0px 0px 3px hsl(210, 0%, 75%);
 	}
 }
 
