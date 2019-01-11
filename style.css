@@ -247,52 +247,13 @@ I {
 }
 
 .Content A.Text {
-	color: hsl(210, 65%, 43%);
+	color: hsl(210, 70%, 43%);
 	text-decoration: none; 
 	font-weight: 600;
 }
 
 .Content A.Text:hover {
-	color: hsl(210, 65%, 38%);
-}
-
-.LinkBar {
-	width: 100%;
-	font-size: 17px;
-	font-weight: 400;
-	margin-top: 18px;
-	margin-bottom: 0px;
-	color: hsl(210, 0%, 48%);
-	text-align: center;
-}
-
-.LinkBar A {
-	color: hsl(210, 65%, 43%);
-	font-size: 16px;
-	font-weight: 600;
-	text-decoration: none;
-}
-
-.LinkBar A:hover {
-	color: hsl(210, 65%, 38%);
-}
-
-.LinkBar T {
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-@media (max-width: 666px) {
-	.LinkBar T {
-		float: left;
-		color: hsl(210, 0%, 100%);
-		font-size: 8px;
-		width: 100%;
-	}
-	.LinkBar A {
-		width: 100%;
-		float: left;
-	}
+	color: hsl(210, 70%, 38%);
 }
 
 .Content .ButtonBar
@@ -484,12 +445,12 @@ T.Hide
 }
 
 .Content A.Title {
-	color: hsl(210, 65%, 43%);
+	color: hsl(210, 70%, 43%);
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 16px;
 }
 
 .Content A.Title:hover {
-	color: hsl(210, 65%, 38%);
+	color: hsl(210, 70%, 38%);
 }
