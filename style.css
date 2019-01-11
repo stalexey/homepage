@@ -313,12 +313,11 @@ I {
 	padding: 9px 11px 9px 11px;
 	margin: 11px 3px 0px 3px;
 	background: hsl(210, 30%, 94%);
-	color: hsl(210, 65%, 43%);
+	color: hsl(210, 70%, 40%);
 }
 
 .Content A.Button:hover {
 	background: hsl(210, 30%, 92%);
-	color: hsl(210, 65%, 38%);
 }
 
 .Content A.Button.Social {
