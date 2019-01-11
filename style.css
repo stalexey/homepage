@@ -312,12 +312,12 @@ I {
 	font-size: 15px;
 	padding: 9px 11px 9px 11px;
 	margin: 11px 3px 0px 3px;
-	background: hsl(210, 30%, 93%);
+	background: hsl(210, 30%, 95%);
 	color: hsl(210, 65%, 43%);
 }
 
 .Content A.Button:hover {
-	background: hsl(210, 30%, 91%);
+	background: hsl(210, 30%, 93%);
 	color: hsl(210, 65%, 38%);
 }
 
