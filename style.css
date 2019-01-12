@@ -30,7 +30,7 @@ DIV {
 }
 
 .Header {
-	background-color: hsl(210, 90%, 32%);
+	background-color: hsl(210, 80%, 32%);
 	box-shadow: 0px 0px 5px hsl(210, 0%, 50%);
 	position: fixed;
 	top: 0px;
@@ -90,7 +90,7 @@ DIV {
 }
 
 .NavigationBar A:hover {
-	background-color: hsl(210, 90%, 30%);
+	background-color: hsl(210, 80%, 30%);
 }
 
 .NavigationBar A.Icon {
@@ -248,13 +248,13 @@ I {
 }
 
 .Content A.Text {
-	color: hsl(210, 90%, 42%);
+	color: hsl(210, 80%, 42%);
 	text-decoration: none; 
 	font-weight: 600;
 }
 
 .Content A.Text:hover {
-	color: hsl(210, 90%, 37%);
+	color: hsl(210, 80%, 37%);
 }
 
 .Content .ButtonBar
@@ -275,7 +275,7 @@ I {
 	padding: 9px 11px 9px 11px;
 	margin: 11px 3px 0px 3px;
 	background: hsl(210, 30%, 95%);
-	color: hsl(210, 90%, 39%);
+	color: hsl(210, 80%, 39%);
 }
 
 .Content A.Button:hover {
@@ -446,12 +446,12 @@ T.Hide
 }
 
 .Content A.Title {
-	color: hsl(210, 90%, 42%);
+	color: hsl(210, 80%, 42%);
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 16px;
 }
 
 .Content A.Title:hover {
-	color: hsl(210, 90%, 37%);
+	color: hsl(210, 80%, 37%);
 }
