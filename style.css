@@ -467,3 +467,17 @@ T.Hide
 .Content A.Title:hover {
 	color: hsl(210, 80%, 38%);
 }
+
+.ProjectHeader {
+	color: hsl(210, 65%, 40%);
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: 18px;
+	margin-bottom: 3px;
+}
+
+.ProjectContent {
+	width: 100%;
+	margin-top: 3px;
+	text-align: justify;
+}
