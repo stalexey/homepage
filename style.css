@@ -90,7 +90,7 @@ DIV {
 }
 
 .NavigationBar A:hover {
-	background-color: hsl(210, 80%, 31%);
+	background-color: hsl(210, 80%, 30%);
 }
 
 .NavigationBar A.Icon {
@@ -266,7 +266,7 @@ I {
 }
 
 .Content A.Text:hover {
-	color: hsl(210, 80%, 38%);
+	color: hsl(345, 80%, 43%);
 }
 
 .Content .ButtonBar
@@ -291,7 +291,8 @@ I {
 }
 
 .Content A.Button:hover {
-	background: hsl(210, 30%, 93%);
+	background: hsl(345, 30%, 95%);
+	color: hsl(345, 80%, 39%);
 }
 
 .Content A.Button.Social {
@@ -465,7 +466,7 @@ T.Hide
 }
 
 .Content A.Title:hover {
-	color: hsl(210, 80%, 38%);
+	color: hsl(345, 80%, 43%);
 }
 
 .ProjectHeader {
