@@ -433,12 +433,16 @@ T.Hide
 	display: block;
 	float: left;
 	margin-right: 18px;
-	border-width: 1px;
-	border-color: hsl(210, 0%, 89%);
+	border-width: 2px;
+	border-color: hsl(210, 80%, 89%);
 	border-style: solid;
 	max-width: 22%;
 	box-sizing: border-box;
-	border-radius: 2px;
+	border-radius: 4px;
+}
+
+.Content IMG.PaperThumbnail:hover {
+	border-color: hsl(345, 80%, 89%);
 }
 
 .Paper {
