@@ -438,11 +438,17 @@ T.Hide
 	border-style: solid;
 	max-width: 22%;
 	box-sizing: border-box;
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .Content IMG.PaperThumbnail:hover {
 	border-color: hsl(345, 80%, 89%);
+}
+
+@media (max-width: 666px) {
+	.Content IMG.PaperThumbnail {
+		border-width: 1px;
+	}
 }
 
 .Paper {
