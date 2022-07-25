@@ -42,11 +42,17 @@
         </DIV>
         <DIV class="Content">
 
+          <DIV class="ButtonBar">
+            <A class="Button" target="_blank">Coming soon</A>
+          </DIV>
+
+          <IMG class="Center" width="600px" src="http://alexey.stomakhin.com/research/whitewater.jpg">
+
           <DIV class="ProjectHeader">
             Abstract
           </DIV>
           <DIV class="ProjectContent">
-            Coming soon
+            We present a method for enhancing fluid simulations with realistic bubble and foam detail. We treat bubbles as discrete air particles, two-way coupled with a sparse volumetric Euler flow, as first suggested in <A class="Text" href="bubbles.html">[Stomakhin et al. 2020]</A>. We elaborate further on their scheme and introduce a bubble inertia correction term for improved convergence. We also show how one can add bubbles to an already existing fluid simulation using our novel guiding technique, which performs local re-simulation of fluid to achieve more interesting bubble dynamics through coupling. As bubbles reach the surface, they are converted into foam and simulated separately. Our foam is discretized with smoothed particle hydrodynamics (SPH), and we replace forces normal to the fluid surface with a fluid surface manifold advection constraint to achieve more robust and stable results. The SPH forces are derived through proper constitutive modeling of an incompressible viscous liquid, and we explain why this choice is appropriate for "wet" types of foam. This allows us to produce believable dynamics from close-up scenarios to large oceans, with just a few parameters that work intuitively across a variety of scales. Additionally, we present relevant research on air entrainment metrics and bubble distributions that have been used in this work.
           </DIV>
 
           <DIV class="ProjectHeader">
