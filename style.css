@@ -16,13 +16,6 @@ DIV {
 	box-sizing: border-box;
 }
 
-IFRAME {
-	padding: 0px;
-	margin: 0px;
-	border-width: 0px;
-	max-width: 100%;
-}
-
 .Padder {
 	width: 1000px;
 	min-width: 60%;
