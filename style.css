@@ -397,18 +397,26 @@ T.Hide
 	}
 }
 
+.JobDescriptionSpace {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
 .JobDescription {
 	width: 100%;
-	padding-left: 36px;
+	padding-left: 13px;
 	padding-right: 36px;
+	padding-top: 0px;
 	margin-top: 12px;
 	margin-bottom: 0px;
+	margin-left: 18px;
+	border-left: 5px solid hsl(210, 50%, 93%);
 	text-align: justify;
 }
 
 @media (max-width: 666px) {
 	.JobDescription {
-		padding-left: 0px;
+		margin-left: 0px;
 		padding-right: 0px;
 	}
 }
