@@ -200,6 +200,12 @@ I {
 	margin-top: 80px;
 }
 
+.AwardWrapper {
+	display: block;
+	text-align: center;
+	margin-top: 0px;
+}
+
 .Content IMG.MyPhoto {
 	display: block;
 	float: left;
