@@ -41,21 +41,21 @@
           A Unified Multi-scale Method for Simulating Immersed Bubbles
         </DIV>
         <DIV class="Content">
-<!-- 
+
           <DIV class="ButtonBar">
-            <A class="Button" target="_blank" href="http://alexey.stomakhin.com/research/siggraph2020_bubbles.pdf"><I class="fas fa-lg fa-file-pdf"></I>&nbsp; Extended abstract</A> 
-            <A class="Button" target="_blank" href="https://dl.acm.org/doi/fullHtml/10.1145/3388767.3407390"><I class="fas fa-lg fa-graduation-cap"></I>&nbsp; ACM</A> 
+            <A class="Button" target="_blank" href="http://alexey.stomakhin.com/research/eg2025_unibubbles.pdf"><I class="fas fa-lg fa-file-pdf"></I>&nbsp; Paper</A> 
+            <A class="Button" target="_blank" href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.70033"><I class="fas fa-lg fa-graduation-cap"></I>&nbsp; Wiley</A> 
           </DIV>
- -->
-          <IMG class="Center" width="300px" src="http://alexey.stomakhin.com/research/title_coming_soon.jpg">
-<!-- 
+
+          <IMG class="Center" width="700px" src="http://alexey.stomakhin.com/research/unibubbles.jpg">
+
           <DIV class="ProjectHeader">
             Abstract
           </DIV>
           <DIV class="ProjectContent">
-            We present an approach to simulating underwater bubbles. Our method is sparse in that it only simulates a thin band of water around the region of interest allowing us to achieve high resolutions in turbulent scenarios. We use a hybrid bubble representation consisting of two parts. The hero counterpart utilizes an incompressible two-phase Navier-Stokes solve on an Eulerian grid with air phase also represented via FLIP/APIC particles to facilitate volume conservation and accurate interface tracking. The diffuse counterpart captures sub-grid bubble motion not "seen" by the Eulerian grid. We represent those as particles and develop a novel scheme for coupling them with the bulk fluid. The coupling scheme is not limited to sub-grid bubbles and may be applied to other thin/porous objects such as sand, hair, and cloth.
+            We introduce a novel unified mixture-based method for simulating underwater bubbles across a range of bubble scales. Our approach represents bubbles as a set of Lagrangian particles that are coupled with the surrounding Eulerian water volume. When bubble particles are sparsely distributed, each particle, typically smaller than the liquid grid voxel size, corresponds to an individual spherical bubble. As the sub-grid particles increase in local density our model smoothly aggregates them, ultimately forming connected, fully aerated volumetric regions that are properly resolved by the Eulerian grid. We complement our scheme with a continuous surface tension model, defined via the gradient of the bubbles' local volume fractions, which works seamlessly across this scale transition. Our unified representation allows us to capture a wide range of effects across different scales—from tiny dispersed sub-grid air pockets to fully Eulerian two-phase interfacial flows.
           </DIV>
- -->
+
           <DIV class="ProjectHeader">
             Authors
           </DIV>
