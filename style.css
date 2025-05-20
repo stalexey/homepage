@@ -365,6 +365,8 @@ I {
 	float: right;
 	font-weight: 400;
 	font-size: 14px;
+	margin-top: 1px;
+	margin-left: 18px;
 	color: hsl(210, 0%, 41%);
 }
 
@@ -392,6 +394,8 @@ T.Hide
 		float: left;
 		width: 100%;
 		font-size: 14px;
+		margin-top: 0px;
+		margin-left: 0px;
 		color: hsl(210, 0%, 48%);
 	}
 	.ResumeOccupation I.Comment {
