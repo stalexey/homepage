@@ -80,6 +80,20 @@ DIV {
 	padding-bottom: 14px;
 }
 
+.NavigationBar A.MenuSelected {
+	float: right;
+	font-weight: 600;
+	font-size: 14px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 13px;
+	padding-bottom: 11px;
+	border-style: solid;
+	border-width: 0px;
+	border-bottom-width: 3px;
+	border-color: hsl(210, 0%, 99%);
+}
+
 .NavigationBar A.Icon {
 	font-weight: 700;
 	font-size: 16px;
@@ -102,6 +116,11 @@ DIV {
 }
 
 @media screen and (max-width: 700px) {
+	.NavigationBar A.MenuSelected {
+		padding-bottom: 14px;
+		border-style: none;
+	}
+
 	.NavigationBar A:not(:first-child) {
 		display: none;
 	}
