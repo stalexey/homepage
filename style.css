@@ -25,7 +25,7 @@ DIV {
 }
 
 .Body {
-	margin-top: 44px;
+	margin-top: 45px;
 	width: 100%;
 }
 
@@ -43,7 +43,7 @@ DIV {
 	width: 100%;
 }
 
-@media (max-width: 1057px) {
+@media (max-width: 1100px) {
 	.NavigationBar {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -157,7 +157,7 @@ DIV {
 	margin: 19px;
 }
 
-@media (max-width: 1057px) {
+@media (max-width: 1100px) {
 	.Object {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -341,7 +341,7 @@ I {
 	border-radius: 2px;
 }
 
-@media (max-width: 1057px) {
+@media (max-width: 1100px) {
 	.ResumeHeader {
 		text-align: center;
 		border-radius: 0px;
@@ -357,7 +357,7 @@ I {
 	margin-bottom: 0px;
 }
 
-@media (max-width: 1057px) {
+@media (max-width: 1100px) {
 	.ResumeOccupation {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -443,7 +443,7 @@ T.Hide
 	text-align: justify;
 }
 
-@media (max-width: 1057px) {
+@media (max-width: 1100px) {
 	.JobDescription {
 		margin-left: 0px;
 		padding-right: 0px;
@@ -459,7 +459,7 @@ T.Hide
 	text-align: justify;
 }
 
-@media (max-width: 1057px) {
+@media (max-width: 1100px) {
 	.ResumeItem {
 		padding-left: 0px;
 		padding-right: 0px;
