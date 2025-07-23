@@ -16,6 +16,46 @@ DIV {
 	box-sizing: border-box;
 }
 
+.Container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  column-gap: 5px;
+  row-gap: 5px;
+  padding-top: 18px;
+  padding-bottom: 0px;
+}
+
+.Container > DIV {
+  border: 0px;
+  padding: 0px;
+}
+
+.Content IMG.Poster {
+	display: block;
+	float: left;
+	margin-right: 18px;
+	border-width: 2px;
+	border-color: hsl(210, 80%, 89%);
+	border-style: solid;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.Content IMG.Poster:hover {
+	border-color: hsl(345, 80%, 89%);
+}
+
+@media (max-width: 800px) {
+	.Content IMG.Poster {
+		border-width: 1px;
+	}
+	.Container {
+	  display: grid;
+	  grid-template-columns: auto auto auto auto auto;
+	}
+}
+
 .Padder {
 	width: 1100px;
 	min-width: 60%;
