@@ -43,7 +43,7 @@ DIV {
 }
 
 .Content IMG.Poster:hover {
-	border-color: hsl(345, 80%, 89%);
+	border-color: hsl(15, 80%, 89%);
 }
 
 @media (max-width: 800px) {
@@ -331,7 +331,7 @@ I {
 }
 
 .Content A.Text:hover {
-	color: hsl(345, 80%, 43%);
+	color: hsl(15, 80%, 43%);
 }
 
 .Content .ButtonBar
@@ -356,8 +356,8 @@ I {
 }
 
 .Content A.Button:hover {
-	background: hsl(345, 30%, 95%);
-	color: hsl(345, 80%, 39%);
+	background: hsl(15, 30%, 95%);
+	color: hsl(15, 80%, 39%);
 }
 
 .Content A.Button.Social {
@@ -519,7 +519,7 @@ T.Hide
 }
 
 .Content IMG.PaperThumbnail:hover {
-	border-color: hsl(345, 80%, 89%);
+	border-color: hsl(15, 80%, 89%);
 }
 
 @media (max-width: 700px) {
@@ -553,7 +553,7 @@ T.Hide
 }
 
 .Content A.Title:hover {
-	color: hsl(345, 80%, 43%);
+	color: hsl(15, 80%, 43%);
 }
 
 .ProjectHeader {
