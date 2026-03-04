@@ -15,6 +15,13 @@ DIV {
 	box-sizing: border-box;
 }
 
+HR {
+	height: 1px;
+	border-style: none;
+	background-color: hsl(210, 0%, 66%);
+	text-align: left;
+}
+
 .Container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
