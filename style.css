@@ -355,19 +355,23 @@ I {
 	display: inline-block;
 	border-radius: 6px;
 	font-size: 15px;
-	padding: 9px 11px 9px 11px;
+	padding: 7px 9px 7px 9px;
 	margin: 11px 3px 0px 3px;
 	background: hsl(210, 30%, 95%);
 	color: hsl(210, 80%, 39%);
+	border-width: 2px;
+	border-style: solid;
+	border-color: hsl(210, 45%, 90%);
 }
 
 .Content A.Button:hover {
 	background: hsl(15, 30%, 95%);
 	color: hsl(15, 80%, 39%);
+	border-color: hsl(15, 45%, 90%);
 }
 
 .Content A.Button.Social {
-    padding: 10px 0px 1px 1px;
+    padding: 8px 0px 0px 0px;
     margin-top: 5px;
 	width: 37px;
     height: 27px;
