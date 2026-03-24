@@ -22,7 +22,43 @@ HR {
 	text-align: left;
 }
 
-.Container {
+.PaperContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+  column-gap: 18px;
+  row-gap: 18px;
+  padding-top: 18px;
+  padding-bottom: 0px;
+}
+
+.PaperContainer > DIV {
+  border: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 900px) {
+	.PaperContainer {
+	  grid-template-columns: auto auto auto;
+	  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 600px) {
+	.PaperContainer {
+	  grid-template-columns: auto auto;
+	  grid-template: repeat(1, 1fr) / repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 300px) {
+	.PaperContainer {
+	  grid-template-columns: auto;
+	  grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+	}
+}
+
+.PosterContainer {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
   column-gap: 5px;
@@ -31,7 +67,7 @@ HR {
   padding-bottom: 0px;
 }
 
-.Container > DIV {
+.PosterContainer > DIV {
   border: 0px;
   padding: 0px;
 }
@@ -56,14 +92,13 @@ HR {
 	.Content IMG.Poster {
 		border-width: 1px;
 	}
-	.Container {
-	  display: grid;
+	.PosterContainer {
 	  grid-template-columns: auto auto auto auto auto;
 	}
 }
 
 .Padder {
-	width: 1100px;
+	width: 1200px;
 	min-width: 60%;
 	max-width: 100%;
 	margin-left: auto;
@@ -89,7 +124,7 @@ HR {
 	width: 100%;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 	.NavigationBar {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -203,7 +238,7 @@ HR {
 	margin: 19px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 	.Object {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -340,6 +375,17 @@ I {
 	color: hsl(15, 80%, 43%);
 }
 
+.Content A.PaperTitle {
+	color: hsl(210, 80%, 43%);
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.Content A.PaperTitle:hover {
+	color: hsl(15, 80%, 43%);
+}
+
 .Content .ButtonBar
 {
 	width: 100%;
@@ -391,7 +437,7 @@ I {
 	border-radius: 2px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 	.ResumeHeader {
 		text-align: center;
 		border-radius: 0px;
@@ -407,7 +453,7 @@ I {
 	margin-bottom: 0px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 	.ResumeOccupation {
 		margin-left: 0px;
 		margin-right: 0px;
@@ -493,7 +539,7 @@ T.Hide
 	text-align: justify;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 	.JobDescription {
 		margin-left: 0px;
 		padding-right: 0px;
@@ -509,7 +555,7 @@ T.Hide
 	text-align: justify;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
 	.ResumeItem {
 		padding-left: 0px;
 		padding-right: 0px;
@@ -518,30 +564,18 @@ T.Hide
 
 .Content IMG.PaperThumbnail {
 	display: block;
-	float: left;
-	margin-right: 18px;
+	float: none;
+	margin-bottom: 6px;
 	border-width: 2px;
 	border-color: hsl(210, 80%, 89%);
 	border-style: solid;
-	max-width: 25%;
 	box-sizing: border-box;
 	border-radius: 2px;
-	width: 180px;
+	width: 100%;
 }
 
 .Content IMG.PaperThumbnail:hover {
 	border-color: hsl(15, 80%, 89%);
-}
-
-@media (max-width: 700px) {
-	.Content IMG.PaperThumbnail {
-		border-width: 1px;
-	}
-}
-
-.Paper {
-	margin-top: 18px;
-	width: 100%;
 }
 
 .PaperInfo {
