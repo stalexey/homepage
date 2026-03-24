@@ -523,9 +523,10 @@ T.Hide
 	border-width: 2px;
 	border-color: hsl(210, 80%, 89%);
 	border-style: solid;
-	max-width: 22%;
+	max-width: 25%;
 	box-sizing: border-box;
 	border-radius: 2px;
+	width: 180px;
 }
 
 .Content IMG.PaperThumbnail:hover {
