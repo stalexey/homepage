@@ -404,13 +404,13 @@ I {
 	color: hsl(210, 80%, 39%);
 	border-width: 2px;
 	border-style: solid;
-	border-color: hsl(210, 45%, 88%);
+	border-color: hsl(210, 45%, 85%);
 }
 
 .Content A.Button:hover {
 	background: hsl(15, 30%, 96%);
 	color: hsl(15, 80%, 39%);
-	border-color: hsl(15, 45%, 88%);
+	border-color: hsl(15, 45%, 85%);
 }
 
 .Content A.Button.Social {
