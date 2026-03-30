@@ -77,7 +77,7 @@ HR {
 	float: left;
 	margin-right: 18px;
 	border-width: 2px;
-	border-color: hsl(210, 70%, 80%);
+	border-color: hsl(210, 70%, 85%);
 	border-style: solid;
 	width: 100%;
 	box-sizing: border-box;
@@ -85,7 +85,7 @@ HR {
 }
 
 .Content IMG.Poster:hover {
-	border-color: hsl(15, 70%, 80%);
+	border-color: hsl(15, 70%, 85%);
 }
 
 @media (max-width: 800px) {
@@ -564,7 +564,7 @@ T.Hide
 	float: none;
 	margin-bottom: 6px;
 	border-width: 2px;
-	border-color: hsl(210, 70%, 80%);
+	border-color: hsl(210, 70%, 85%);
 	border-style: solid;
 	box-sizing: border-box;
 	border-radius: 2px;
@@ -572,7 +572,7 @@ T.Hide
 }
 
 .Content IMG.PaperThumbnail:hover {
-	border-color: hsl(15, 70%, 80%);
+	border-color: hsl(15, 70%, 85%);
 }
 
 .PaperInfo {
