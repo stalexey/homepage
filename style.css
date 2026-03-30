@@ -61,8 +61,8 @@ HR {
 .PosterContainer {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-  column-gap: 5px;
-  row-gap: 5px;
+  column-gap: 7px;
+  row-gap: 7px;
   padding-top: 18px;
   padding-bottom: 0px;
 }
@@ -77,7 +77,7 @@ HR {
 	float: left;
 	margin-right: 18px;
 	border-width: 2px;
-	border-color: hsl(210, 80%, 89%);
+	border-color: hsl(210, 70%, 80%);
 	border-style: solid;
 	width: 100%;
 	box-sizing: border-box;
@@ -85,13 +85,10 @@ HR {
 }
 
 .Content IMG.Poster:hover {
-	border-color: hsl(15, 80%, 89%);
+	border-color: hsl(15, 70%, 80%);
 }
 
 @media (max-width: 800px) {
-	.Content IMG.Poster {
-		border-width: 1px;
-	}
 	.PosterContainer {
 	  grid-template-columns: auto auto auto auto auto;
 	}
@@ -567,7 +564,7 @@ T.Hide
 	float: none;
 	margin-bottom: 6px;
 	border-width: 2px;
-	border-color: hsl(210, 80%, 89%);
+	border-color: hsl(210, 70%, 80%);
 	border-style: solid;
 	box-sizing: border-box;
 	border-radius: 2px;
@@ -575,7 +572,7 @@ T.Hide
 }
 
 .Content IMG.PaperThumbnail:hover {
-	border-color: hsl(15, 80%, 89%);
+	border-color: hsl(15, 70%, 80%);
 }
 
 .PaperInfo {
