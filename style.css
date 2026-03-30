@@ -61,8 +61,8 @@ HR {
 .PosterContainer {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-  column-gap: 7px;
-  row-gap: 7px;
+  column-gap: 6px;
+  row-gap: 6px;
   padding-top: 18px;
   padding-bottom: 0px;
 }
