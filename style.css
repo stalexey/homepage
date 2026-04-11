@@ -6,7 +6,7 @@ BODY {
 	font-weight: 400;
 	font-family: 'Open Sans', Arial, sans-serif, Helvetica;
 	color: hsl(210, 0%, 0%);
-	background-image: radial-gradient(circle, hsl(210, 0%, 80%) 0%, hsl(210, 0%, 88%) 66%);
+	background-image: radial-gradient(circle, hsl(210, 0%, 82%) 0%, hsl(210, 0%, 88%) 66%);
 	background-size: 2px 2px;
 	background-repeat: repeat;
 }
@@ -106,13 +106,13 @@ HR {
 }
 
 .Body {
-	margin-top: 45px;
+	margin-top: 46px;
 	width: 100%;
 }
 
 .Header {
 	background-color: hsl(210, 80%, 33%);
-	box-shadow: 0px 0px 5px hsl(210, 0%, 50%);
+	box-shadow: 0px 0px 5px hsl(210, 0%, 25%);
 	position: fixed;
 	top: 0px;
 	width: 100%;
