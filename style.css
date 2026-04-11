@@ -6,9 +6,12 @@ BODY {
 	font-weight: 400;
 	font-family: 'Open Sans', Arial, sans-serif, Helvetica;
 	color: hsl(210, 0%, 0%);
-	background-image: radial-gradient(circle, hsl(210, 0%, 82%) 0%, hsl(210, 0%, 88%) 66%);
-	background-size: 2px 2px;
+	background-image: radial-gradient(circle, hsla(210, 0%, 70%, 80%) 0%, hsla(210, 0%, 95%, 90%) 60%), url(https://alexey.stomakhin.com/images/superwave.jpg);
+	background-size: 2px 2px, cover;
+	background-blend-mode: normal, normal;
 	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 DIV {
@@ -42,22 +45,22 @@ HR {
 
 @media (max-width: 900px) {
 	.PaperContainer {
-	  grid-template-columns: auto auto auto;
-	  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+		grid-template-columns: auto auto auto;
+		grid-template: repeat(1, 1fr) / repeat(3, 1fr);
 	}
 }
 
 @media (max-width: 600px) {
 	.PaperContainer {
-	  grid-template-columns: auto auto;
-	  grid-template: repeat(1, 1fr) / repeat(2, 1fr);
+		grid-template-columns: auto auto;
+		grid-template: repeat(1, 1fr) / repeat(2, 1fr);
 	}
 }
 
 @media (max-width: 300px) {
 	.PaperContainer {
-	  grid-template-columns: auto;
-	  grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+		grid-template-columns: auto;
+		grid-template: repeat(1, 1fr) / repeat(1, 1fr);
 	}
 }
 
@@ -93,7 +96,7 @@ HR {
 
 @media (max-width: 800px) {
 	.PosterContainer {
-	  grid-template-columns: auto auto auto auto auto;
+		grid-template-columns: auto auto auto auto auto;
 	}
 }
 
@@ -417,9 +420,9 @@ I {
 }
 
 .Content A.Button.Social {
-    padding: 8px 0px 1px 0px;
+		padding: 8px 0px 1px 0px;
     margin-top: 5px;
-	width: 37px;
+		width: 37px;
     height: 27px;
 }
 
