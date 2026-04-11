@@ -125,6 +125,7 @@ HR {
 	position: fixed;
 	top: 0px;
 	width: 100%;
+	z-index: 999;
 }
 
 .NavigationBar {
@@ -371,15 +372,6 @@ I {
 			hsla(210, 0%, 0%, 100%) 270deg);
 	mask-size: 2px 2px;
 	mask-repeat: repeat;
-}
-
-.Content IMG.Padded {
-	margin: 0px;
-	padding: 0px;
-}
-
-.Content CENTER {
-	padding-top: 18px;
 }
 
 .Content A.Text {
