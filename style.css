@@ -8,10 +8,10 @@ BODY {
 	color: hsl(210, 0%, 0%);
 	background-image:
 		conic-gradient(
-			hsla(210, 0%, 96%, 90%) 0deg,
-			hsla(210, 0%, 96%, 90%) 90deg,
-			hsla(210, 0%, 89%, 90%) 90deg,
-			hsla(210, 0%, 89%, 90%) 270deg),
+			hsla(210, 0%, 97%, 90%) 0deg,
+			hsla(210, 0%, 97%, 90%) 90deg,
+			hsla(210, 0%, 88%, 90%) 90deg,
+			hsla(210, 0%, 88%, 90%) 270deg),
 		url(https://alexey.stomakhin.com/images/superwave.jpg);
 	background-size: 2px 2px, cover;
 	background-blend-mode: normal, normal;
