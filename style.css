@@ -6,7 +6,7 @@ BODY {
 	font-weight: 400;
 	font-family: 'Open Sans', Arial, sans-serif, Helvetica;
 	color: hsl(210, 0%, 0%);
-	background-image: url(https://alexey.stomakhin.com/images/digi_overlay.png), url(https://alexey.stomakhin.com/images/superwave.jpg);
+	background-image: url(https://alexey.stomakhin.com/images/digi_overlay_2x.png), url(https://alexey.stomakhin.com/images/superwave.jpg);
 	background-size: 2px 2px, cover;
 	background-blend-mode: normal, normal;
 	background-repeat: repeat;
