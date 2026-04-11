@@ -6,7 +6,13 @@ BODY {
 	font-weight: 400;
 	font-family: 'Open Sans', Arial, sans-serif, Helvetica;
 	color: hsl(210, 0%, 0%);
-	background-image: url(https://alexey.stomakhin.com/images/digi_overlay_2x.png), url(https://alexey.stomakhin.com/images/superwave.jpg);
+	background-image:
+		conic-gradient(
+			hsla(210, 0%, 100%, 90%) 0deg,
+			hsla(210, 0%, 100%, 90%) 90deg,
+			hsla(210, 0%, 88%, 90%) 90deg,
+			hsla(210, 0%, 88%, 90%) 270deg),
+		url(https://alexey.stomakhin.com/images/superwave.jpg);
 	background-size: 2px 2px, cover;
 	background-blend-mode: normal, normal;
 	background-repeat: repeat;
@@ -29,18 +35,18 @@ HR {
 }
 
 .PaperContainer {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template: repeat(1, 1fr) / repeat(4, 1fr);
-  column-gap: 18px;
-  row-gap: 18px;
-  padding-top: 18px;
-  padding-bottom: 0px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+	column-gap: 18px;
+	row-gap: 18px;
+	padding-top: 18px;
+	padding-bottom: 0px;
 }
 
 .PaperContainer > DIV {
-  border: 0px;
-  padding: 0px;
+	border: 0px;
+	padding: 0px;
 }
 
 @media (max-width: 900px) {
@@ -65,17 +71,17 @@ HR {
 }
 
 .PosterContainer {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-  column-gap: 6px;
-  row-gap: 6px;
-  padding-top: 18px;
-  padding-bottom: 0px;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+	column-gap: 6px;
+	row-gap: 6px;
+	padding-top: 18px;
+	padding-bottom: 0px;
 }
 
 .PosterContainer > DIV {
-  border: 0px;
-  padding: 0px;
+	border: 0px;
+	padding: 0px;
 }
 
 .Content IMG.Poster {
@@ -420,10 +426,10 @@ I {
 }
 
 .Content A.Button.Social {
-		padding: 8px 0px 1px 0px;
-    margin-top: 5px;
-		width: 37px;
-    height: 27px;
+	padding: 8px 0px 1px 0px;
+	margin-top: 5px;
+	width: 37px;
+	height: 27px;
 }
 
 .ResumeHeader {
