@@ -6,7 +6,7 @@ BODY {
 	font-weight: 400;
 	font-family: 'Open Sans', Arial, sans-serif, Helvetica;
 	color: hsl(210, 0%, 0%);
-	background-image: radial-gradient(circle, hsla(210, 0%, 70%, 80%) 0%, hsla(210, 0%, 95%, 90%) 60%), url(https://alexey.stomakhin.com/images/superwave.jpg);
+	background-image: radial-gradient(circle, hsla(210, 0%, 100%, 90%) 0%, hsla(210, 0%, 88%, 90%) 60%), url(https://alexey.stomakhin.com/images/superwave.jpg);
 	background-size: 2px 2px, cover;
 	background-blend-mode: normal, normal;
 	background-repeat: repeat;
