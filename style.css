@@ -416,7 +416,7 @@ I {
 	margin: 11px 3px 0px 3px;
 	background: hsl(210, 40%, 97%);
 	color: hsl(210, 80%, 39%);
-	border-width: 1.5px;
+	border-width: 2px;
 	border-style: solid;
 	border-color: hsl(210, 55%, 85%);
 }
