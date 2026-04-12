@@ -9,7 +9,7 @@
   <LINK rel="shortcut icon" href="https://alexey.stomakhin.com/favicon.ico" type="image/x-icon"> 
   <LINK rel="stylesheet" href="../style.css" type="text/css">
   <LINK href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
-  <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+  <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v7.2.0/css/all.css">
   <SCRIPT type="text/javascript" src="../scripts.js"></SCRIPT>
 </HEAD>
 
@@ -51,7 +51,7 @@
           <IMG class="Center" width="100%" src="https://alexey.stomakhin.com/research/integrator.jpg">
 
           <DIV class="ProjectHeader">
-            Abstract
+            Overview
           </DIV>
           <DIV class="ProjectContent">
             Practical time steps in today's state-of-the-art simulators typically rely on Newton's method to solve large systems of nonlinear equations. In practice, this works well for small time steps but is unreliable at large time steps at or near the frame rate, particularly for difficult or stiff simulations. We show that recasting backward Euler as a minimization problem allows Newton's method to be stabilized by standard optimization techniques with some novel improvements of our own. The resulting solver is capable of solving even the toughest simulations at the 24Hz frame rate and beyond. We show how simple collisions can be incorporated directly into the solver through constrained minimization without sacrificing efficiency. We also present novel penalty collision formulations for self collisions and collisions against scripted bodies designed for the unique demands of this solver. Finally, we show that these techniques improve the behavior of Material Point Method (MPM) simulations by recasting it as an optimization problem.

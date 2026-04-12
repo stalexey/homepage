@@ -9,7 +9,7 @@
   <LINK rel="shortcut icon" href="https://alexey.stomakhin.com/favicon.ico" type="image/x-icon"> 
   <LINK rel="stylesheet" href="../style.css" type="text/css">
   <LINK href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
-  <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+  <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v7.2.0/css/all.css">
   <SCRIPT type="text/javascript" src="../scripts.js"></SCRIPT>
 </HEAD>
 
@@ -51,7 +51,7 @@
           <IMG class="Center" width="1200px" src="https://alexey.stomakhin.com/research/partitioner.jpg">
 
           <DIV class="ProjectHeader">
-            Abstract
+            Overview
           </DIV>
           <DIV class="ProjectContent">
             This work addresses the challenges of distributing large physics-based simulations often encountered in the visual effects industry. These simulations, based on partial differential equations, model complex phenomena such as free surface liquids, flames, and explosions, and are characterized by domains whose shapes and topologies evolve rapidly. In this context, we propose a novel partitioning algorithm employing optimal transport&mdash;which produces a power diagram&mdash;and designed to handle a vast variety of simulation domain shapes undergoing rapid changes over time. Our Power partitioner ensures an even distribution of computational tasks, reduces inter-node data exchange, and maintains temporal consistency, all while being intuitive and artist-friendly. To quantify partitioning quality we introduce two metrics, the surface index and the temporal consistency index, which we leverage in a range of comparisons on real-world film production data, showing that our method outperforms the state of the art in a majority of cases.

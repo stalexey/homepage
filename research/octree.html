@@ -9,7 +9,7 @@
   <LINK rel="shortcut icon" href="https://alexey.stomakhin.com/favicon.ico" type="image/x-icon"> 
   <LINK rel="stylesheet" href="../style.css" type="text/css">
   <LINK href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
-  <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+  <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v7.2.0/css/all.css">
   <SCRIPT type="text/javascript" src="../scripts.js"></SCRIPT>
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 </HEAD>
@@ -50,7 +50,7 @@
           <IMG class="Center" width="100%" src="https://alexey.stomakhin.com/research/octree.jpg">
 
           <DIV class="ProjectHeader">
-            Abstract
+            Overview
           </DIV>
           <DIV class="ProjectContent">
             We present an efficient method for the physical simulation of soft tissue deformation for animated characters using octrees. Previous work on efficient elasticity simulation relies on the regular structure of a uniform grid discretization. However, representing the complicated boundaries of animated characters requires a high resolution grid, which consumes large amounts of memory and is computationally expensive. By refining an octree around the surface of the character, our memory usage and simulation times grow only quadratically with the inverse of the cell size, compared to cubic growth for a uniform grid. We realize memory savings of 18x and a speedup of 1.7x over a uniform grid with the same boundary resolution on one production example. Moreover, we show that we are able to simulate complex geometry that is infeasible with a uniform grid due to memory usage that would exceed our method by 50x or more. To achieve this we derive a matrix-free geometric multigrid method for the solution of linear systems resulting from an octree discretization of the equations of corotational linear elasticity. We also demonstrate the high parallel scalability of our optimized shared-memory CPU implementation in a fully-featured production-level system.
