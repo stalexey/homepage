@@ -208,7 +208,7 @@ HR {
 	display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
 	.NavigationBar A.MenuSelected {
 		padding-bottom: 14px;
 		border-style: none;
@@ -231,6 +231,10 @@ HR {
 	}
 	.NavigationBar.Responsive A:first-child {
 		display: none;
+	}
+	T.Hide
+	{
+		display: initial;
 	}
 }
 
@@ -532,10 +536,6 @@ T.Hide
 	}
 	.ResumeOccupation I.Comment {
 		display: none;
-	}
-	T.Hide
-	{
-		display: initial;
 	}
 }
 
