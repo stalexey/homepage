@@ -376,6 +376,12 @@ I {
 	mask-repeat: repeat;
 }
 
+@media (max-width: 640px) {
+	.Content IMG.Center {
+		mask-image: none;
+	}
+}
+
 .Content A.Text {
 	color: hsl(210, 80%, 43%);
 	text-decoration: none; 
