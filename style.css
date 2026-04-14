@@ -208,6 +208,11 @@ HR {
 	display: none;
 }
 
+T.Hide
+{
+	display: none;
+}
+
 @media screen and (max-width: 500px) {
 	.NavigationBar A.MenuSelected {
 		padding-bottom: 14px;
@@ -512,11 +517,6 @@ I {
 	font-weight: 400;
 	font-size: 12px;
 	color: hsl(210, 0%, 48%);
-}
-
-T.Hide
-{
-	display: none;
 }
 
 @media (max-width: 700px) {
