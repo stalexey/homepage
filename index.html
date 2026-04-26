@@ -10,6 +10,7 @@
   <LINK rel="stylesheet" href="style.css" type="text/css">
   <LINK href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
   <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v7.2.0/css/all.css">
+  <SCRIPT type="text/javascript" src="publications.js"></SCRIPT>
   <SCRIPT type="text/javascript" src="scripts.js"></SCRIPT>
 </HEAD>
 
@@ -41,6 +42,11 @@
           Welcome
         </DIV>
         <DIV class="Content">
+          <P id="insert"></P>
+          <SCRIPT>
+            document.getElementById("insert").innerHTML =
+            papersDB.papers[0].id;
+          </SCRIPT>
           <IMG class="MyPhoto" src="https://alexey.stomakhin.com/images/photo.jpg" width="321px" alt="Alexey Stomakhin">
           <DIV class="WelcomeWrapper">
             <DIV class="WelcomeLine">Welcome to my homepage!</DIV>
