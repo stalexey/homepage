@@ -6,3 +6,7 @@ function toggleMenu() {
 		x.className = "NavigationBar";
 	}
 }
+
+function collapseMenu() {
+	x.className = "NavigationBar";
+}
