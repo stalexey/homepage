@@ -8,5 +8,6 @@ function toggleMenu() {
 }
 
 function collapseMenu() {
+	var x = document.getElementById("NavigaionBarID");
 	x.className = "NavigationBar";
 }
