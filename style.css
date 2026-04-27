@@ -163,6 +163,18 @@ HR {
 	padding-bottom: 12px;
 }
 
+.NavigationBar A.MenuTitle {
+	float: left;
+	font-weight: 700;
+	font-size: 16px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	pointer-events: none;
+	display: none;
+}
+
 .NavigationBar A.Menu {
 	float: right;
 	font-weight: 600;
@@ -219,27 +231,40 @@ T.Hide
 		border-style: none;
 	}
 
+	.NavigationBar A.MenuTitle {
+		display: initial;
+	}
+
 	.NavigationBar A:not(:first-child) {
 		display: none;
 	}
+
 	.NavigationBar A.Icon {
 		float: right;
 		display: block;
 	}
+
 	.NavigationBar.Responsive .Icon {
 		float: right;
 	}
+
 	.NavigationBar.Responsive A {
 		float: none;
 		display: block;
 		text-align: left;
 	}
+
 	.NavigationBar.Responsive A:first-child {
 		display: none;
 	}
+
 	T.Hide
 	{
 		display: initial;
+	}
+
+	.NavigationBar.Responsive {
+		padding-bottom: 10px;
 	}
 }
 
