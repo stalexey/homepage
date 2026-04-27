@@ -193,9 +193,11 @@ HR {
 	padding-right: 18px;
 	padding-top: 13px;
 	padding-bottom: 11px;
-	border-style: solid;
 	border-width: 0px;
 	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-left-width: 3px;
+	border-left-style: none;
 	border-color: hsl(210, 0%, 99%);
 }
 
@@ -228,7 +230,9 @@ T.Hide
 @media screen and (max-width: 500px) {
 	.NavigationBar A.MenuSelected {
 		padding-bottom: 14px;
-		border-style: none;
+		border-bottom-style: none;
+		padding-left: 15px;
+		border-left-style: solid;
 	}
 
 	.NavigationBar A.MenuTitle {
