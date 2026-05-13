@@ -143,8 +143,13 @@ HR {
 	}
 }
 
-.NavigationBar .IconDrawing {
+.NavigationBar .IconMenuDrawing {
 	fill: hsl(210, 0%, 99%);
+}
+
+.NavigationBar .IconExitDrawing {
+	stroke: hsl(210, 0%, 99%);
+	stroke-width: 2px;
 }
 
 .NavigationBar A {
@@ -201,21 +206,28 @@ HR {
 	border-color: hsl(210, 0%, 99%);
 }
 
-.NavigationBar A.Icon {
+.NavigationBar A.IconMenu {
 	font-weight: 700;
 	font-size: 16px;
 	padding-left: 18px;
 	padding-right: 18px;
 	padding-top: 12px;
 	padding-bottom: 12px;
+	display: none;
+}
+
+.NavigationBar A.IconExit {
+	font-weight: 700;
+	font-size: 16px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	display: none;
 }
 
 .NavigationBar A:hover {
 	background-color: hsl(210, 80%, 30%);
-}
-
-.NavigationBar A.Icon {
-	display: none;
 }
 
 .NavigationBar A:last-child {
@@ -243,13 +255,24 @@ T.Hide
 		display: none;
 	}
 
-	.NavigationBar A.Icon {
+	.NavigationBar A.IconMenu {
 		float: right;
 		display: block;
 	}
 
-	.NavigationBar.Responsive .Icon {
+	.NavigationBar.Responsive .IconMenu {
 		float: right;
+		display: none;
+	}
+
+	.NavigationBar A.IconExit {
+		float: right;
+		display: none;
+	}
+
+	.NavigationBar.Responsive .IconExit {
+		float: right;
+		display: block;
 	}
 
 	.NavigationBar.Responsive A {
