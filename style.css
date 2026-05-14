@@ -240,6 +240,10 @@ T.Hide
 }
 
 @media screen and (max-width: 500px) {
+	.NavigationBar A.Welcome {
+		pointer-events: none;
+	}
+
 	.NavigationBar A.MenuSelected {
 		padding-bottom: 14px;
 		border-bottom-style: none;
@@ -291,7 +295,7 @@ T.Hide
 	}
 
 	.NavigationBar.Responsive {
-		padding-bottom: 14px;
+		padding-bottom: 12px;
 	}
 }
 
