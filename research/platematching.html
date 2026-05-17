@@ -177,16 +177,7 @@
             Overview
           </DIV>
           <DIV class="ProjectContent">
-            On <A class="Text" target="_blank" href="https://www.imdb.com/title/tt1757678">Avatar: Fire and Ash</A>, a large number of shots required extension of photographed water surfaces and the integration of digital characters interacting directly with live-action water. These shots demanded a level of surface fidelity and temporal stability beyond what had been sufficient on previous films in the series. In particular, long-duration shots, chaotic tank environments, and tight coupling between water motion and character performance exposed fundamental limitations in per-frame water reconstruction and manual surface matching workflows.
-          </DIV>
-          <DIV class="ProjectContent">
-            Water surfaces are inherently difficult to measure in production settings. They cannot be reliably LiDAR scanned, and their reflective and refractive properties limit traditional capture approaches. While wide-baseline machine-vision cameras were used to reconstruct per-pixel water surface geometry, the resulting per-frame meshes were noisy and temporally unstable. On previous productions, these meshes were used as guides for manually matching parametric FFT wave surfaces, with residual differences addressed through compositing and stereo-specific adjustments. This approach became increasingly fragile as shot duration and complexity increased, often suffering from phase drift and accumulating artifacts.
-          </DIV>
-          <DIV class="ProjectContent">
-            We present a production workflow that augments per-frame surface reconstruction with sparse, supervisor-selected feature tracks that capture the dominant temporal motion of the photographed water surface. By tracking stable visual cues such as foam patterns, waterline intersections, and set contacts over time, we derive a temporally coherent representation of the live-action water. This representation is used to drive both parametric FFT wave models and downstream water simulations via <A class="Text" href="fab.html">fluxed animated boundaries</A>, ensuring consistent energy transfer and phase stability.
-          </DIV>
-          <DIV class="ProjectContent">
-            This approach significantly reduced manual matching, improved robustness on long shots with multiple interacting wave systems, and enabled high-fidelity interaction between live-action water, CG extensions, and digital characters. The session focuses on practical implementation details, limitations, and lessons learned deploying this system in production.
+            <A class="Text" target="_blank" href="https://www.imdb.com/title/tt1757678">Avatar: Fire and Ash</A> required geometric consistency between photographed and simulated water in chaotic tank environments over long frame sequences, with characters interacting directly with the surface. We describe a feature-driven approach for recovering temporally coherent water motion to support stable parametric modeling and simulation coupling.
           </DIV>
           <DIV class="ProjectHeader">
             Authors
