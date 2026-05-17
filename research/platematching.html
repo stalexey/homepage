@@ -126,12 +126,6 @@
               justify-content: center;
               pointer-events: none;
             }
-
-            .img-compare .ic-handle SVG {
-              width: 18px;
-              height: 18px;
-              fill: #333;
-            }
           </STYLE>
 
           <DIV class="img-compare">
@@ -139,7 +133,7 @@
             <IMG class="ic-before" src="https://alexey.stomakhin.com/research/platematching_before.jpg">
             <DIV class="ic-divider"></DIV>
             <DIV class="ic-handle">
-              <SVG viewBox="0 0 24 24">
+              <SVG width="20" height="20" viewBox="0 0 24 24">
                 <PATH d="M8.5 5L2 12l6.5 7V5zm7 0v14l6.5-7-6.5-7z"/>
               </SVG>
             </DIV>
@@ -147,14 +141,14 @@
 
           <SCRIPT>
             document.querySelectorAll('.img-compare').forEach(el => {
-              const after   = el.querySelector('.ic-after');
+              const after    = el.querySelector('.ic-after');
               const before   = el.querySelector('.ic-before');
               const divider  = el.querySelector('.ic-divider');
               const handle   = el.querySelector('.ic-handle');
               function set(clientX) {
                 const rect = el.getBoundingClientRect();
                 const pct  = Math.min(100, Math.max(0, (clientX - rect.left) / rect.width * 100));
-                after.style.clipPath = `inset(0 0 0 ${pct}%)`;
+                after.style.clipPath  = `inset(0 0 0 ${pct}%)`;
                 before.style.clipPath = `inset(0 ${100 - pct}% 0 0)`;
                 divider.style.left    = pct + '%';
                 handle.style.left     = pct + '%';
