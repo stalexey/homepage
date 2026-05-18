@@ -49,7 +49,30 @@
         </DIV>
         <DIV class="Content">
 
-          <IMG class="Center" width="400px" src="https://alexey.stomakhin.com/research/title_coming_soon.jpg">
+          <DIV class="SlideshowContainer">
+            <DIV class="Slides">
+              <IMG class="Center" src="https://alexey.stomakhin.com/research/fluxdevil_render.jpg">
+            </DIV>
+            <DIV class="Slides">
+              <IMG class="Center" src="https://alexey.stomakhin.com/research/fluxdevil_fire.jpg">
+            </DIV>
+            <DIV class="Slides">
+              <IMG class="Center" src="https://alexey.stomakhin.com/research/fluxdevil_water.jpg">
+            </DIV>
+            <DIV class="Slides">
+              <IMG class="Center" src="https://alexey.stomakhin.com/research/fluxdevil_plasma.jpg">
+            </DIV>
+            <DIV class="SlideSelector">
+              <SPAN class="SlideDot" onclick="currentSlide(1)"></SPAN>
+              <SPAN class="SlideDot" onclick="currentSlide(2)"></SPAN>
+              <SPAN class="SlideDot" onclick="currentSlide(3)"></SPAN>
+              <SPAN class="SlideDot" onclick="currentSlide(4)"></SPAN>
+            </DIV>
+          </DIV>
+          <SCRIPT>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+          </SCRIPT>
 
           <DIV class="ProjectHeader">
             Overview
