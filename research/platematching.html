@@ -57,7 +57,8 @@
               width: 100%;
               overflow: hidden;
               cursor: ew-resize;
-              touch-action: pan-y;
+              touch-action: none;
+              user-select: none;
               aspect-ratio: 2048 / 1080;
             }
 
@@ -153,6 +154,7 @@
                 handle.style.left     = pct + '%';
               }
               el.addEventListener('pointerdown', e => {
+                e.preventDefault();
                 el.setPointerCapture(e.pointerId);
                 set(e.clientX);
               });
