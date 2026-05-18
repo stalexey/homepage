@@ -472,7 +472,7 @@ I {
 {
 	width: 100%;
 	font-weight: 600;
-	margin-top: 7px;
+	margin-top: 8px;
 	margin-bottom: 0px;
 	color: hsl(210, 0%, 48%);
 	text-align: center;
@@ -484,7 +484,7 @@ I {
 	border-radius: 6px;
 	font-size: 15px;
 	padding: 7px 9px 7px 9px;
-	margin: 11px 3px 0px 3px;
+	margin: 10px 3px 0px 3px;
 	background: hsl(210, 40%, 97%);
 	color: hsl(210, 80%, 39%);
 	border-width: 2px;
