@@ -708,8 +708,8 @@ I {
 
 .SlideDot {
   cursor: pointer;
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 40px;
   margin: 5px 3px 0px 3px;
   padding: 0px;
   background-color: hsl(210, 40%, 87%);
