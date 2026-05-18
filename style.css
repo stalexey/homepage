@@ -134,6 +134,7 @@ HR {
 	padding-left: 19px;
 	padding-right: 19px;
 	width: 100%;
+	user-select: none;
 }
 
 @media (max-width: 1200px) {
@@ -476,6 +477,7 @@ I {
 	margin-bottom: 0px;
 	color: hsl(210, 0%, 48%);
 	text-align: center;
+	user-select: none;
 }
 
 .Content A.Button {
@@ -704,6 +706,7 @@ I {
 	margin: 0px;
 	display: flex;
 	justify-content: center;
+	user-select: none;
 }
 
 .SlideDot {
