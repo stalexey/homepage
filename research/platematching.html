@@ -56,7 +56,9 @@
               position: relative;
               width: 100%;
               overflow: hidden;
-              touch-action: pan-y;
+              cursor: ew-resize;
+              touch-action: none;
+              user-select: none;
               aspect-ratio: 2048 / 1080;
             }
 
@@ -71,6 +73,7 @@
               height: 100%;
               object-fit: cover;
               display: block;
+              pointer-events: none;
               mask-image:
                 conic-gradient(
                   hsla(210, 0%, 0%, 90%) 0deg,
@@ -121,8 +124,7 @@
               display: flex;
               align-items: center;
               justify-content: center;
-              pointer-events: auto;
-              cursor: ew-resize;
+              pointer-events: none;
             }
           </STYLE>
 
@@ -152,7 +154,7 @@
                 handle.style.left     = pct + '%';
               }
               el.addEventListener('pointerdown', e => {
-                if (!e.target.closest('.ic-handle')) return;
+                e.preventDefault();
                 el.setPointerCapture(e.pointerId);
                 set(e.clientX);
               });
