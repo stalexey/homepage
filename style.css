@@ -712,15 +712,15 @@ I {
   width: 18px;
   margin: 4px 3px 0px 3px;
   padding: 0px;
-  background-color: hsl(210, 45%, 85%);
+  background-color: hsl(210, 40%, 87%);
   border-radius: 25%;
   display: inline-block;
 }
 
 .SlideDot:hover {
-	background-color: hsl(15, 45%, 85%);
+	background-color: hsl(15, 40%, 87%);
 }
 
 .SlideActive, .SlideActive:hover {
-	background-color: hsl(210, 45%, 50%);
+	background-color: hsl(210, 40%, 55%);
 }
