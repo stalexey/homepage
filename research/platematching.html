@@ -153,7 +153,6 @@
               }
               el.addEventListener('pointerdown', e => {
                 if (!e.target.closest('.ic-handle')) return;
-                e.preventDefault();
                 el.setPointerCapture(e.pointerId);
                 set(e.clientX);
               });
