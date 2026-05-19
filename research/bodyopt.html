@@ -53,7 +53,30 @@
             <A class="Button" target="_blank" href="https://alexey.stomakhin.com/research/siggraph2023_bodyopt.pdf"><I class="fas fa-lg fa-file-pdf"></I>&nbsp; Abstract</A><A class="Button" target="_blank" href="https://www.youtube.com/watch?v=l4TFOSwATZU"><I class="fab fa-lg fa-youtube"></I>&nbsp; Video</A><A class="Button" target="_blank" href="https://dl.acm.org/doi/10.1145/3587421.3595407"><I class="fas fa-lg fa-graduation-cap"></I>&nbsp; ACM</A> 
           </DIV>
 
-          <IMG class="Center" width="100%" src="https://alexey.stomakhin.com/research/bodyopt.jpg">
+          <DIV class="SlideshowContainer">
+            <DIV class="Slides">
+              <IMG class="Center" src="https://alexey.stomakhin.com/research/bodyopt.jpg">
+            </DIV>
+            <DIV class="Slides">
+              <IMG class="Center" src="https://alexey.stomakhin.com/research/bodyopt_2.jpg">
+            </DIV>
+            <DIV class="Slides">
+              <IMG class="Center" src="https://alexey.stomakhin.com/research/bodyopt_3.jpg">
+            </DIV>
+            <DIV class="Slides">
+              <IMG class="Center" src="https://alexey.stomakhin.com/research/bodyopt_4.jpg">
+            </DIV>
+            <DIV class="SlideSelector">
+              <SPAN class="SlideDot" onclick="currentSlide(1)"></SPAN>
+              <SPAN class="SlideDot" onclick="currentSlide(2)"></SPAN>
+              <SPAN class="SlideDot" onclick="currentSlide(3)"></SPAN>
+              <SPAN class="SlideDot" onclick="currentSlide(4)"></SPAN>
+            </DIV>
+          </DIV>
+          <SCRIPT>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+          </SCRIPT>
 
           <DIV class="ProjectHeader">
             Overview
