@@ -162,7 +162,7 @@ HR {
 	text-decoration: none;
 }
 
-.NavigationBar A.Welcome {
+.NavigationBar A.Logo {
 	float: left;
 	font-weight: 700;
 	font-size: 16px;
@@ -244,7 +244,7 @@ T.Hide
 }
 
 @media screen and (max-width: 500px) {
-	.NavigationBar A.Welcome {
+	.NavigationBar A.Logo {
 		pointer-events: none;
 	}
 
