@@ -1,10 +1,6 @@
-function toggleMenu() {
+function expandMenu() {
 	var x = document.getElementById("NavigaionBarID");
-	if (x.className === "NavigationBar") {
-		x.className += " Responsive";
-	} else {
-		x.className = "NavigationBar";
-	}
+  x.className = "NavigationBar Responsive";
 }
 
 function collapseMenu() {
