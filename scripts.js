@@ -12,15 +12,11 @@ function collapseMenu() {
 	x.className = "NavigationBar";
 }
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showSlide(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlide(n) {
   let i;
   let slides = document.getElementsByClassName("Slides");
   let dots = document.getElementsByClassName("SlideDot");
