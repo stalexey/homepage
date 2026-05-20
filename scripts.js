@@ -35,3 +35,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " SlideActive";
 }
+
+function initializeSlides() {
+  let slides = document.getElementsByClassName("Slides");
+  let slideSelector = document.querySelector(".SlideSelector");
+  slideSelector.innerHTML = "";
+  for (i = 1; i <= slides.length; i++)
+    slideSelector.innerHTML += `<SPAN class="SlideDot" onclick="currentSlide(` + i + `)"></SPAN>`
+  currentSlide(1);
+}
