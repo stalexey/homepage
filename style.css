@@ -680,7 +680,7 @@ I {
 }
 
 .ProjectHeader {
-	color: hsl(210, 0%, 0%);
+	color: hsl(210, 0%, 30%);
 	font-weight: 600;
 	font-size: 15px;
 	margin-top: 18px;
