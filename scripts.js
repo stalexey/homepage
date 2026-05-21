@@ -1,23 +1,19 @@
 function expandMenu() {
-	var x = document.getElementById("NavigaionBarID");
+  var x = document.getElementById("NavigaionBarID");
   x.className = "NavigationBar Responsive";
 }
 
 function collapseMenu() {
-	var x = document.getElementById("NavigaionBarID");
-	x.className = "NavigationBar";
+  var x = document.getElementById("NavigaionBarID");
+  x.className = "NavigationBar";
 }
 
-function currentSlide(n) {
-  showSlide(slideIndex = n);
-}
-
-function showSlide(n) {
+function showSlide(slideIndex) {
   let i;
   let slides = document.getElementsByClassName("Slides");
   let dots = document.getElementsByClassName("SlideDot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (slideIndex > slides.length) {slideIndex = 1}
+  if (slideIndex < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -29,10 +25,11 @@ function showSlide(n) {
 }
 
 function initializeSlides() {
+  let i;
   let slides = document.getElementsByClassName("Slides");
   let slideSelector = document.querySelector(".SlideSelector");
   slideSelector.innerHTML = "";
   for (i = 1; i <= slides.length; i++)
-    slideSelector.innerHTML += `<SPAN class="SlideDot" onclick="currentSlide(` + i + `)"></SPAN>`
-  currentSlide(1);
+    slideSelector.innerHTML += `<SPAN class="SlideDot" onclick="showSlide(` + i + `)"></SPAN>`
+  showSlide(1);
 }

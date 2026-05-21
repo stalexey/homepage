@@ -695,13 +695,13 @@ I {
 }
 
 .SlideshowContainer {
-  width: 100%;
-  position: relative;
-  margin: auto;
+	width: 100%;
+	position: relative;
+	margin: auto;
 }
 
 .Slides {
-  display: none;
+	display: none;
 }
 
 .SlideSelector {
@@ -714,14 +714,14 @@ I {
 }
 
 .SlideDot {
-  cursor: pointer;
-  height: 15px;
-  width: 40px;
-  margin: 5px 3px 0px 3px;
-  padding: 0px;
-  background-color: hsl(210, 40%, 87%);
-  border-radius: 4px;
-  display: inline-block;
+	cursor: pointer;
+	height: 15px;
+	width: 40px;
+	margin: 5px 3px 0px 3px;
+	padding: 0px;
+	background-color: hsl(210, 40%, 87%);
+	border-radius: 4px;
+	display: inline-block;
 }
 
 .SlideDot:hover {
