@@ -25,6 +25,7 @@ BODY {
 
 DIV {
 	padding: 0px;
+	border: 0px;
 	margin: 0px;
 	overflow: hidden;
 	box-sizing: border-box;
@@ -35,80 +36,6 @@ HR {
 	border-style: none;
 	background-color: hsl(210, 0%, 70%);
 	text-align: left;
-}
-
-.PaperContainer {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-template: repeat(1, 1fr) / repeat(4, 1fr);
-	column-gap: 18px;
-	row-gap: 18px;
-	padding-top: 18px;
-	padding-bottom: 0px;
-}
-
-.PaperContainer > DIV {
-	border: 0px;
-	padding: 0px;
-}
-
-@media (max-width: 900px) {
-	.PaperContainer {
-		grid-template-columns: auto auto auto;
-		grid-template: repeat(1, 1fr) / repeat(3, 1fr);
-	}
-}
-
-@media (max-width: 600px) {
-	.PaperContainer {
-		grid-template-columns: auto auto;
-		grid-template: repeat(1, 1fr) / repeat(2, 1fr);
-	}
-}
-
-@media (max-width: 300px) {
-	.PaperContainer {
-		grid-template-columns: auto;
-		grid-template: repeat(1, 1fr) / repeat(1, 1fr);
-	}
-}
-
-.PosterContainer {
-	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
-	grid-template: repeat(1, 1fr) / repeat(10, 1fr);
-	column-gap: 6px;
-	row-gap: 6px;
-	padding-top: 18px;
-	padding-bottom: 0px;
-}
-
-.PosterContainer > DIV {
-	border: 0px;
-	padding: 0px;
-}
-
-.Content IMG.Poster {
-	display: block;
-	float: left;
-	margin-right: 18px;
-	border-width: 2px;
-	border-color: hsl(210, 70%, 85%);
-	border-style: solid;
-	width: 100%;
-	box-sizing: border-box;
-	border-radius: 2px;
-}
-
-.Content IMG.Poster:hover {
-	border-color: hsl(15, 70%, 85%);
-}
-
-@media (max-width: 800px) {
-	.PosterContainer {
-		grid-template-columns: auto auto auto auto auto;
-		grid-template: repeat(1, 1fr) / repeat(5, 1fr);
-	}
 }
 
 .Padder {
@@ -379,6 +306,127 @@ I {
 	display: block;
 	text-align: center;
 	margin-top: 80px;
+}
+
+.AwardsContainer {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template: repeat(1, 1fr) / repeat(2, 1fr);
+	column-gap: 18px;
+	row-gap: 18px;
+	padding-top: 18px;
+	padding-bottom: 0px;
+}
+
+@media (max-width: 700px) {
+	.AwardsContainer {
+		grid-template-columns: auto;
+		grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+	}
+}
+
+.AwardsContainer IMG.AwardsThumbnail {
+	display: block;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	border-width: 1px;
+	border-color: hsl(210, 0%, 89%);
+	border-style: solid;
+	border-radius: 2px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.AwardsContainer .AwardsName {
+	color: hsl(210, 0%, 20%);
+	font-weight: 600;
+	font-size: 13px;
+	margin-top: 9px;
+	margin-bottom: 0px;
+	padding: 7px;
+	border-radius: 5px;
+	background-color: hsl(210, 0%, 90%);
+	display: inline-block;
+}
+
+.AwardsContainer .AwardsTitle {
+	width: 100%;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	font-size: 14px;
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+.AwardsContainer .AwardsContent {
+	width: 100%;
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.PaperContainer {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+	column-gap: 18px;
+	row-gap: 18px;
+	padding-top: 18px;
+	padding-bottom: 0px;
+}
+
+@media (max-width: 900px) {
+	.PaperContainer {
+		grid-template-columns: auto auto auto;
+		grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 600px) {
+	.PaperContainer {
+		grid-template-columns: auto auto;
+		grid-template: repeat(1, 1fr) / repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 300px) {
+	.PaperContainer {
+		grid-template-columns: auto;
+		grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+	}
+}
+
+.PosterContainer {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+	grid-template: repeat(1, 1fr) / repeat(10, 1fr);
+	column-gap: 6px;
+	row-gap: 6px;
+	padding-top: 18px;
+	padding-bottom: 0px;
+}
+
+.Content IMG.Poster {
+	display: block;
+	float: left;
+	margin-right: 18px;
+	border-width: 2px;
+	border-color: hsl(210, 70%, 85%);
+	border-style: solid;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.Content IMG.Poster:hover {
+	border-color: hsl(15, 70%, 85%);
+}
+
+@media (max-width: 800px) {
+	.PosterContainer {
+		grid-template-columns: auto auto auto auto auto;
+		grid-template: repeat(1, 1fr) / repeat(5, 1fr);
+	}
 }
 
 .AwardWrapper {
