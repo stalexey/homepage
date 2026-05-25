@@ -74,13 +74,9 @@ HR {
 	}
 }
 
-.NavigationBar .IconMenuDrawing {
+.NavigationBar .IconDrawing {
 	fill: hsl(210, 0%, 99%);
-}
-
-.NavigationBar .IconExitDrawing {
 	stroke: hsl(210, 0%, 99%);
-	stroke-width: 2px;
 }
 
 .NavigationBar A {
