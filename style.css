@@ -339,14 +339,14 @@ I {
 }
 
 .AwardsContainer .AwardsName {
-	color: hsl(210, 0%, 20%);
 	font-weight: 600;
 	font-size: 13px;
 	margin-top: 9px;
 	margin-bottom: 0px;
 	padding: 7px;
-	border-radius: 5px;
-	background-color: hsl(210, 0%, 90%);
+	border-radius: 4px;
+	background-color: hsl(210, 100%, 95%);
+	color: hsl(210, 50%, 33%);
 	display: inline-block;
 }
 
@@ -587,7 +587,6 @@ I {
 @media (max-width: 1200px) {
 	.ResumeHeader {
 		text-align: center;
-		border-radius: 0px;
 		padding-top: 7px;
 		padding-bottom: 7px;
 	}
