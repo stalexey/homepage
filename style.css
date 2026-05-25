@@ -302,6 +302,10 @@ I {
 	margin-bottom: 0px;
 }
 
+.Content P.FollowUp {
+	margin-top: 7px;
+}
+
 .WelcomeWrapper {
 	display: block;
 	text-align: center;
