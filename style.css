@@ -532,17 +532,6 @@ I {
 	color: hsl(15, 80%, 43%);
 }
 
-.Content A.PaperTitle {
-	color: hsl(210, 80%, 43%);
-	text-decoration: none;
-	font-weight: 600;
-	font-size: 14px;
-}
-
-.Content A.PaperTitle:hover {
-	color: hsl(15, 80%, 43%);
-}
-
 .Content .ButtonBar
 {
 	width: 100%;
@@ -726,16 +715,25 @@ I {
 	border-color: hsl(15, 70%, 85%);
 }
 
-.PaperInfo {
+.Content .PaperTitle {
+	font-size: 14px;
 	margin-top: 6px;
-	text-align: left;
-	line-height: 21px;
-	font-size: 13px;
 }
 
-.Content T.Conference {
-	font-weight: 400;
+.Content .PaperAuthors {
+	font-size: 13px;
+	margin-top: 4px;
+}
+
+.Content .PaperConference {
 	font-size: 12px;
+	margin-top: 5px;
+	color: hsl(210, 0%, 48%);
+}
+
+.Content .PaperInfo {
+	font-size: 12px;
+	margin-top: 3px;
 	color: hsl(210, 0%, 48%);
 }
 
