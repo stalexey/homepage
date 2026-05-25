@@ -339,14 +339,14 @@ I {
 }
 
 .AwardsContainer .AwardsName {
+	color: hsl(210, 60%, 30%);
+	background-color: hsl(210, 50%, 92%);
 	font-weight: 600;
 	font-size: 13px;
 	margin-top: 9px;
 	margin-bottom: 0px;
 	padding: 7px;
-	border-radius: 4px;
-	background-color: hsl(210, 100%, 95%);
-	color: hsl(210, 50%, 33%);
+	border-radius: 6px;
 	display: inline-block;
 }
 
