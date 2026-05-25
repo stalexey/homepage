@@ -339,8 +339,8 @@ I {
 }
 
 .AwardsContainer .AwardsName {
-	color: hsl(210, 60%, 30%);
-	background-color: hsl(210, 50%, 92%);
+	color: hsl(210, 0%, 20%);
+	background-color: hsl(210, 0%, 90%);
 	font-weight: 600;
 	font-size: 13px;
 	margin-top: 9px;
