@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <META name="description" Lang=en content="Homepage of Alexey Stomakhin">
+  <META name="keywords" Lang=en content="Alexey Stomakhin, Alexey, Stomakhin, Homepage">
+  <META name="viewport" content="width=device-width, initial-scale=1.0">
+  <TITLE>Alexey Stomakhin</TITLE>
+  <LINK rel="icon" href="https://alexey.stomakhin.com/favicon.ico" type="image/x-icon">
+  <LINK rel="shortcut icon" href="https://alexey.stomakhin.com/favicon.ico" type="image/x-icon"> 
+  <LINK rel="stylesheet" href="../style.css" type="text/css">
+  <LINK href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+  <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v7.2.0/css/all.css">
+  <SCRIPT type="text/javascript" src="../scripts.js"></SCRIPT>
+</HEAD>
+
+<BODY marginwidth=0 marginheight=0>
+
+  <DIV class="Header">
+    <DIV class="Padder">
+      <DIV class="NavigationBar" id="NavigaionBarID">
+        <A class="Logo" href="../index.html"><I class="fas fa-lg fa-fw fa-feather-pointed"></I>&nbsp; Alexey Stomakhin</A>
+        <A class="IconMenu" href="javascript:void(0);" onclick="expandMenu()"><IMG src="../images/icon_menu.svg"></A>
+        <A class="IconExit" href="javascript:void(0);" onclick="collapseMenu()"><IMG src="../images/icon_exit.svg"></A>
+        <A class="MenuTitle">Menu</A>
+        <A class="Menu" href="../resume.html" onclick="collapseMenu()"><T class="Hide"><I class="fas fa-lg fa-fw fa-book-open"></I>&nbsp;&nbsp;&nbsp;</T>Resume</A>
+        <A class="MenuSelected" href="../research.html" onclick="collapseMenu()"><T class="Hide"><I class="fas fa-lg fa-fw fa-magic-wand-sparkles"></I>&nbsp;&nbsp;&nbsp;</T>Research</A>
+        <A class="Menu" href="../index.html" onclick="collapseMenu()"><T class="Hide"><I class="fas fa-lg fa-fw fa-home"></I>&nbsp;&nbsp;&nbsp;</T>Welcome</A>
+      </DIV>
+    </DIV>
+  </DIV>
+
+  <DIV class="Body" onclick="collapseMenu()">
+    <DIV class="Padder">
+
+      <DIV class="Object">
+        <DIV class="Label">
+          Kora: A Physics-Based Fire Pipeline and Toolset
+        </DIV>
+        <DIV class="Content">
+
+          <DIV class="SlideshowContainer">
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/kora_tornado.jpg"></DIV>
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/kora_flux.jpg"></DIV>
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/kora_sparks.jpg"></DIV>
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/kora_flamethrower.jpg"></DIV>
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/kora_toruk.jpg"></DIV>
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/kora_splash.jpg"></DIV>
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/kora_explosion.jpg"></DIV>
+          </DIV>
+          <DIV class="SlideSelector"></DIV>
+          <SCRIPT>initializeSlides();</SCRIPT>
+
+          <DIV class="ProjectHeader">
+            Overview
+          </DIV>
+          <DIV class="ProjectContent">
+            We present Kora*, a fire system for visual effects production. It consists of (i) a weakly compressible, sparse, spatially adaptive, MPI-distributed physics-based combustion solver, featuring a novel energy cascade turbulence model and support for adiabatic cooling; (ii) a Houdini‑centric abstraction layer that exposes the advanced combustion routines through intuitive, artist‑friendly interfaces. Key components include customizable premixed fuel sourcing, liquid-gas coupling and vaporization, control and art‑direction utilities, as well as physics‑based shading and render‑graph integration. We describe the architecture of Kora, its solver foundations, and how we put it into practice in <A class="Text" target="_blank" href="https://www.imdb.com/title/tt1757678">Avatar: Fire and Ash</A>.
+          </DIV>
+
+          <DIV class="ProjectHeader">
+            Authors
+          </DIV>
+          <DIV class="ProjectContent">
+            Alexey Stomakhin,
+            John Edholm,
+            Murali Ramachari,
+            Aleksandr Isakov,
+            Zahra Forootaninia,
+            Marcus Schoo,
+            Nicholas Illingworth,
+            Joe Letteri
+          </DIV>
+
+          <DIV class="ProjectHeader">
+            Publication
+          </DIV>
+          <DIV class="ProjectContent">
+            DigiPro 2026
+          </DIV>
+
+          <DIV class="ProjectContent" style="font-size: 92%;">
+            <HR>
+            *Kora is te reo M&amacr;ori for spark.
+          </DIV>
+
+        </DIV>
+      </DIV>
+
+      <DIV class="Copyright">
+        &copy; Alexey Stomakhin, All Rights Reserved.
+      </DIV>
+
+    </DIV>
+  </DIV>
+
+</BODY>
+</HTML>
