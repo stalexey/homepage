@@ -48,11 +48,7 @@
             Overview
           </DIV>
           <DIV class="ProjectContent">
-            The visual effects requirements of <A class="Text" target="_blank" href="https://www.imdb.com/title/tt1757678">Avatar: Fire and Ash</A> pushed the limits of our <A class="Text" href="pahi.html">water toolset</A> beyond that of its predecessor <A class="Text" target="_blank" href="https://www.imdb.com/title/tt1630029">Avatar: The Way of Water</A>. A single 400ft sea dragon ship in the previous Avatar installment becomes a fleet in Avatar: Fire and Ash, led by an even larger 700ft factory ship. Multiple tulkun elders are roughly 4x the size of Payakan&mdash;our previous aquatic protagonist. The water in which these giants face off needed to be scaled accordingly, and in order to deliver the total of over 2000 water shots our tools required significant upgrades.
-            We focused our efforts on massive scalability with increased MPI support and more efficient simulation partitioning. Due to the larger amount of simulation data, our post-processing workflows, such as surfacing, had to be made fully distributed as well.
-            The setups were automated and streamlined to reduce artists' time spent on preparing and wrangling heavy data. In particular, we replaced cumbersom <A class="Text" href="fab.html">fluxed animated boundary</A> primitives with lightweight simulation windows, which also simplified our upresing workflow.
-            Multiple quality improvements have been made to the core of the solver to reduce artistic iterations. To achieve increased fidelity in air-water interaction we moved to a fully coupled two-phase pressure projection. We upgraded our water state machine with refined transition heuristics and behaviors of its individual (spray and mist) components. A novel unified model was adopted to avoid dealing with different types of bubble representations. Improved temporal integration schemes helped preserve the overall energy of the simulations.
-            With all of these techniques and also new debugging tools, we were able to deliver the unprecedented scale and complexity of the water shots featured in Avatar: Fire and Ash.
+            In this talk we discuss the collection of improvements we have made to <A class="Text" href="pahi.html">Pahi</A> for the massive-scale water demands of <A class="Text" target="_blank" href="https://www.imdb.com/title/tt1757678">Avatar: Fire and Ash</A>.
           </DIV>
           <DIV class="ProjectHeader">
             Authors
