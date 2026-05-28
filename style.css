@@ -482,10 +482,10 @@ I {
 
 .WelcomeLine {
 	display: block;
-	margin-top: 12px;
+	margin-top: 15px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
 	.WelcomeWrapper {
 		margin-top: 7px;
 	}
