@@ -91,8 +91,8 @@ HR {
 	display: block;
 	font-weight: 700;
 	font-size: 16px;
-	padding: 0px 18px 2px 18px;
-	height: 44px;
+	padding: 0px 18px 1px 18px;
+	height: 45px;
 }
 
 .NavigationBar A.MenuTitle {
@@ -100,8 +100,8 @@ HR {
 	display: block;
 	font-weight: 700;
 	font-size: 16px;
-	padding: 0px 18px 2px 18px;
-	height: 44px;
+	padding: 0px 18px 1px 18px;
+	height: 45px;
 	pointer-events: none;
 	display: none;
 }
@@ -110,16 +110,16 @@ HR {
 	float: right;
 	font-weight: 600;
 	font-size: 14px;
-	padding: 0px 18px 2px 18px;
-	height: 44px;
+	padding: 0px 18px 1px 18px;
+	height: 45px;
 }
 
 .NavigationBar A.MenuSelected {
 	float: right;
 	font-weight: 600;
 	font-size: 14px;
-	padding: 1px 18px 0px 18px;
-	height: 42px;
+	padding: 2px 18px 0px 18px;
+	height: 41px;
 	border-width: 0px;
 	border-bottom-width: 3px;
 	border-bottom-style: solid;
@@ -131,16 +131,16 @@ HR {
 .NavigationBar A.IconMenu {
 	font-weight: 700;
 	font-size: 16px;
-	padding: 0px 18px 1px 18px;
-	height: 45px;
+	padding: 0px 18px 0px 18px;
+	height: 46px;
 	display: none;
 }
 
 .NavigationBar A.IconExit {
 	font-weight: 700;
 	font-size: 16px;
-	padding: 0px 18px 2px 18px;
-	height: 44px;
+	padding: 0px 18px 0px 18px;
+	height: 46px;
 	display: none;
 }
 
@@ -164,8 +164,8 @@ T.Hide
 
 	.NavigationBar A.MenuSelected {
 		border-bottom-style: none;
-		padding: 0px 18px 2px 15px;
-		height: 44px;
+		padding: 0px 18px 1px 15px;
+		height: 45px;
 		border-left-style: solid;
 	}
 
