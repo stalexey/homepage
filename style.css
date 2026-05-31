@@ -82,27 +82,26 @@ HR {
 .NavigationBar A {
 	display: block;
 	color: hsl(210, 0%, 99%);
+	align-content: center;
 	text-decoration: none;
 }
 
 .NavigationBar A.Logo {
 	float: left;
+	display: block;
 	font-weight: 700;
 	font-size: 16px;
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding: 0px 18px 2px 18px;
+	height: 44px;
 }
 
 .NavigationBar A.MenuTitle {
 	float: left;
+	display: block;
 	font-weight: 700;
 	font-size: 16px;
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding: 0px 18px 2px 18px;
+	height: 44px;
 	pointer-events: none;
 	display: none;
 }
@@ -111,20 +110,16 @@ HR {
 	float: right;
 	font-weight: 600;
 	font-size: 14px;
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 13px;
-	padding-bottom: 14px;
+	padding: 0px 18px 2px 18px;
+	height: 44px;
 }
 
 .NavigationBar A.MenuSelected {
 	float: right;
 	font-weight: 600;
 	font-size: 14px;
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 13px;
-	padding-bottom: 11px;
+	padding: 1px 18px 0px 18px;
+	height: 42px;
 	border-width: 0px;
 	border-bottom-width: 3px;
 	border-bottom-style: solid;
@@ -136,20 +131,16 @@ HR {
 .NavigationBar A.IconMenu {
 	font-weight: 700;
 	font-size: 16px;
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding: 0px 18px 1px 18px;
+	height: 45px;
 	display: none;
 }
 
 .NavigationBar A.IconExit {
 	font-weight: 700;
 	font-size: 16px;
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding: 0px 18px 2px 18px;
+	height: 44px;
 	display: none;
 }
 
@@ -172,9 +163,9 @@ T.Hide
 	}
 
 	.NavigationBar A.MenuSelected {
-		padding-bottom: 14px;
 		border-bottom-style: none;
-		padding-left: 15px;
+		padding: 0px 18px 2px 15px;
+		height: 44px;
 		border-left-style: solid;
 	}
 
@@ -244,10 +235,7 @@ T.Hide
 
 @media (max-width: 1200px) {
 	.Object {
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin: 10px 0px 10px 0px;
 		border-radius: 0px;
 		box-shadow: 0px 0px 3px hsla(210, 0%, 0%, 10%);
 	}
@@ -259,10 +247,7 @@ T.Hide
 
 .Label {
 	background-color: hsl(210, 100%, 93%);
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding: 8px 18px 8px 18px;
 	font-weight: 600;
 	font-size: 15px;
 	color: hsl(210, 50%, 33%);
@@ -270,10 +255,7 @@ T.Hide
 }
 
 .Content {
-	padding-left: 18px;
-	padding-right: 18px;
-	padding-top: 0px;
-	padding-bottom: 18px;
+	padding: 0px 18px 18px 18px;
 }
 
 .Content B {
@@ -292,10 +274,7 @@ I {
 .Content P {
 	text-align: justify; 
 	font-weight: 400;
-	margin-left: 0px;
-	margin-right: 0;
-	margin-top: 18px;
-	margin-bottom: 0px;
+	margin: 18px 0px 0px 0px;
 }
 
 .Content P.FollowUp {
@@ -467,10 +446,7 @@ I {
 .Content IMG.MyPhoto {
 	display: block;
 	float: left;
-	margin-left: 0px;
-	margin-right: 18px;
-	margin-top: 18px;
-	margin-bottom: 0px;
+	margin: 18px 18px 0px 0px;
 	padding: 0px;
 	border-width: 1px;
 	border-color: hsl(210, 0%, 89%);
@@ -575,10 +551,7 @@ I {
 	background-color: hsl(210, 100%, 95%);
 	color: hsl(210, 50%, 33%);
 	font-weight: 600;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 8px 10px 8px 10px;
 	margin-top: 18px;
 	margin-bottom: 18px;
 	border-radius: 2px;
@@ -593,10 +566,7 @@ I {
 }
 
 .ResumeOccupation {
-	margin-left: 18px;
-	margin-right: 18px;
-	margin-top: 16px;
-	margin-bottom: 0px;
+	margin: 16px 18px 0px 18px;
 }
 
 @media (max-width: 1200px) {
