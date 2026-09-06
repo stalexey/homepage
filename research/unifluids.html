@@ -38,13 +38,26 @@
         </DIV>
         <DIV class="Content">
 
-          <IMG class="Center" width="500px" src="https://alexey.stomakhin.com/research/title_coming_soon.jpg">
+          <DIV class="ButtonBar">
+            <A class="Button" target="_blank" href="https://alexey.stomakhin.com/research/siggraphasia2026_unifluids.pdf"><I class="fas fa-lg fa-file-pdf"></I>&nbsp; Paper</A>
+          </DIV>
+
+          <DIV class="SlideshowContainer">
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/unifluids_waterfall.jpg"></DIV>
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/unifluids_waterbombing.jpg"></DIV>
+          </DIV>
+          <DIV class="SlideSelector"></DIV>
+          <SCRIPT>initializeSlides();</SCRIPT>
 
           <DIV class="ProjectHeader">
             Overview
           </DIV>
           <DIV class="ProjectContent">
-            We present a novel method for simulating large-scale, high density-ratio two-phase flows. Our approach adopts a two-fluid mixture formulation discretized on a shared Eulerian grid, in which phase fractions are represented using Lagrangian material points. We carefully adapt established closure models to this hybrid framework to capture the exchange of forces between phases, enabling the smooth transition between stratified (grid-resolved) and dispersed (sub-grid) flow regimes without recourse to secondary solvers. The resulting volumetric coupling forces are jointly integrated in a pressure projection, yielding a strongly coupled scheme that remains stable under large time steps and in highly dynamic scenarios. By combining these features, our method provides a unified, multi-scale discretization capable of capturing immiscible two-phase flows covering large spatial scales in a single simulation. We illustrate our method's capabilities on a diverse set of multi-scale scenarios, including a massive waterfall, a waterbombing airplane, large underwater bubbles, a geyser, and crashing ocean waves.
+            We present a novel method for simulating large-scale, high density-ratio two-phase immiscible flows.
+            Our approach adopts a two-fluid mixture formulation discretized on a shared Eulerian grid, in which phase fractions are represented using Lagrangian material points.
+            We carefully adapt established closure models to this hybrid framework to capture the exchange of forces between phases, enabling the smooth transition between stratified (grid-resolved) and dispersed (sub-grid) flow regimes without recourse to secondary solvers.
+            The resulting volumetric coupling forces are jointly integrated in a pressure projection, yielding a strongly coupled scheme that remains stable under large time steps and in highly dynamic scenarios.
+            By combining these features, our method provides a unified, multi-scale discretization capable of capturing immiscible two-phase flows covering a large range of spatial scales in a single simulation. We illustrate our method's capabilities on a diverse set of multi-scale scenarios, including a massive waterfall, a waterbombing airplane, large underwater bubbles, a geyser, and crashing ocean waves.
           </DIV>
 
           <DIV class="ProjectHeader">
