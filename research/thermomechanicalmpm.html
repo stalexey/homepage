@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  <META name="description" Lang=en content="Homepage of Alexey Stomakhin">
+  <META name="keywords" Lang=en content="Alexey Stomakhin, Alexey, Stomakhin, Homepage">
+  <META name="viewport" content="width=device-width, initial-scale=1.0">
+  <TITLE>Alexey Stomakhin</TITLE>
+  <LINK rel="icon" href="https://alexey.stomakhin.com/favicon.ico" type="image/x-icon">
+  <LINK rel="shortcut icon" href="https://alexey.stomakhin.com/favicon.ico" type="image/x-icon"> 
+  <LINK rel="stylesheet" href="../style.css" type="text/css">
+  <LINK href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+  <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v7.2.0/css/all.css">
+  <SCRIPT type="text/javascript" src="../scripts.js"></SCRIPT>
+</HEAD>
+
+<BODY marginwidth=0 marginheight=0>
+
+  <DIV class="Header">
+    <DIV class="Padder">
+      <DIV class="NavigationBar" id="NavigaionBarID">
+        <A class="Logo" href="../index.html"><I class="fas fa-lg fa-fw fa-feather-pointed"></I>&nbsp; Alexey Stomakhin</A>
+        <A class="IconMenu" href="javascript:void(0);" onclick="expandMenu()"><IMG src="../images/icon_menu.svg"></A>
+        <A class="IconExit" href="javascript:void(0);" onclick="collapseMenu()"><IMG src="../images/icon_exit.svg"></A>
+        <A class="MenuTitle">Menu</A>
+        <A class="Menu" href="../resume.html" onclick="collapseMenu()"><T class="Hide"><I class="fas fa-lg fa-fw fa-book-open"></I>&nbsp;&nbsp;&nbsp;</T>Resume</A>
+        <A class="MenuSelected" href="../research.html" onclick="collapseMenu()"><T class="Hide"><I class="fas fa-lg fa-fw fa-magic-wand-sparkles"></I>&nbsp;&nbsp;&nbsp;</T>Research</A>
+        <A class="Menu" href="../index.html" onclick="collapseMenu()"><T class="Hide"><I class="fas fa-lg fa-fw fa-home"></I>&nbsp;&nbsp;&nbsp;</T>Welcome</A>
+      </DIV>
+    </DIV>
+  </DIV>
+
+  <DIV class="Body" onclick="collapseMenu()">
+    <DIV class="Padder">
+
+      <DIV class="Object">
+        <DIV class="Label">
+          A Thermomechanical Hybrid Incompressible Material Point Method
+        </DIV>
+        <DIV class="Content">
+
+          <DIV class="ButtonBar">
+            <A class="Button" target="_blank" href="https://alexey.stomakhin.com/research/arxiv2024_thermomechanicalmpm.pdf"><I class="fas fa-lg fa-file-pdf"></I>&nbsp; Paper</A><A class="Button" target="_blank" href="https://arxiv.org/abs/2408.07276"><I class="fas fa-lg fa-graduation-cap"></I>&nbsp; arXiv</A>
+          </DIV>
+
+          <DIV class="SlideshowContainer">
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/thermomechanicalmpm_0.jpg"></DIV>
+            <DIV class="Slides"><IMG class="Center" src="https://alexey.stomakhin.com/research/thermomechanicalmpm_1.jpg"></DIV>
+          </DIV>
+          <DIV class="SlideSelector"></DIV>
+          <SCRIPT>initializeSlides();</SCRIPT>
+
+          <DIV class="ProjectHeader">
+            Overview
+          </DIV>
+          <DIV class="ProjectContent">
+            We present a novel hybrid incompressible flow/material point method solver for simulating the combustion of flammable solids. Our approach utilizes a sparse grid representation of solid materials in the material point method portion of the solver and a hybrid Eulerian/FLIP solver for the incompressible portion. We utilize these components to simulate the motion of heated air and particulate matter as they interact with flammable solids, causing combustion-related damage. We include a novel particle sampling strategy to increase Eulerian flow accuracy near regions of high temperature. We also support control of the flame front propagation speed and the rate of solid combustion in an artistically directable manner. Solid combustion is modeled with temperature-dependent elastoplastic constitutive modeling. We demonstrate the efficacy of our method on various real-world three-dimensional problems, including a burning match, incense sticks, and a wood log in a fireplace.
+          </DIV>
+
+          <DIV class="ProjectHeader">
+            Authors
+          </DIV>
+          <DIV class="ProjectContent">
+            Victoria Kala,
+            Jingyu Chen,
+            David Hyde,
+            Alexey Stomakhin,
+            Joseph Teran
+          </DIV>
+
+          <DIV class="ProjectHeader">
+            Publication
+          </DIV>
+          <DIV class="ProjectContent">
+            arXiv 2024
+          </DIV>
+
+        </DIV>
+      </DIV>
+
+      <DIV class="Copyright">
+        &copy; Alexey Stomakhin, All Rights Reserved.
+      </DIV>
+
+    </DIV>
+  </DIV>
+
+</BODY>
+</HTML>
